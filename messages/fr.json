@@ -1,5 +1,45 @@
 {
   "home": {
-    "title": "Bonjour Monde!"
+    "title": "Bonjour Monde!",
+    "header" : {
+
+    },
+    "hero": {
+
+    },
+    "price": {
+
+    },
+    "testimonial": {
+
+    },
+    "footer": {
+      "title": "Ronan CANNY",
+      "phone": {
+        "title": "Téléphone",
+        "content": "06 83 80 57 23"
+      },
+      "email": {
+        "title": "Email",
+        "content": "whatcannydev@gmail.com"
+      },
+      "localization":{
+        "title": "Localisation",
+        "content": "Île-de-France, France"
+      },
+      "socials":{
+        "github": "Github",
+        "linkedin": "LinkedIn",
+        "website": "Site web"
+      },
+      "ironhack": {
+        "title": "Connaître Ironhack",
+        "link": "https://lp.ironhack.com/fr/apprenticeship"
+      },
+      "opca": "Connaître mon OPCA",
+      "signatureintro": "Coded by ",
+      "signaturelink": "WhatCannyDev",
+      "signaturetooltip": "moi"
+    }
   }
 }
