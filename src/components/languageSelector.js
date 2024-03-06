@@ -3,6 +3,7 @@
 import React from "react";
 import {Select, SelectItem} from "@nextui-org/react";
 import { useRouter, usePathname } from '@/navigation';
+import { EarthIcon } from "./_earthIcon";
 
 export function LanguageSelector( locale ) {
     const router = useRouter();
@@ -10,15 +11,18 @@ export function LanguageSelector( locale ) {
     const handleChange = e => {
         router.push(pathname, { locale: e.target.value });
     };
-    // console.log(locale.props);
+    const language = locale.locale.props.trim()
+    // console.log("SWITHCER : ",locale);
+    // console.log("SWITHCER language : ",language);
     return (
-        <div className="flex flex-wrap w-32 mb-6">
+        <div className="flex flex-wrap w-32">
             <Select
                 aria-label="Language"
                 size="sm"
                 className="max-w-xs"
+                startContent={<EarthIcon/>}
                 onChange={handleChange}
-                defaultSelectedKeys={[locale.props]}
+                defaultSelectedKeys={[language]}
             >
                 <SelectItem key="en" value="en">
                     English
