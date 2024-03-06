@@ -1,5 +1,39 @@
 {
   "home": {
-    "title": "Hello world!"
+    "title": "Hello word!",
+    "header" : {
+
+    },
+    "hero": {
+
+    },
+    "price": {
+
+    },
+    "testimonial": {
+
+    },
+    "footer": {
+      "title": "Ronan CANNY",
+      "phone": {
+        "title": "Phone",
+        "content": "+33 6 83 80 57 23"
+      },
+      "email": {
+        "title": "Email",
+        "content": "whatcannydev@gmail.com"
+      },
+      "localization":{
+        "title": "Localization",
+        "content": "Île-de-France, France"
+      },
+      "socials":{
+        "github": "Github",
+        "linkedin": "LinkedIn",
+        "website": "Website"
+      },
+      "ironhacklink": "About Ironhack",
+      "opca": "About OPCA"
+    }
   }
 }
