@@ -1,5 +1,7 @@
 'use client';
 
+import React from "react";
+import {Select, SelectItem} from "@nextui-org/react";
 import { useRouter, usePathname } from '@/navigation';
 
 export function LanguageSelector( locale ) {
@@ -10,10 +12,25 @@ export function LanguageSelector( locale ) {
     };
     // console.log(locale.props);
     return (
-        <select value={locale.props} onChange={handleChange}>
-            <option value="en">English</option>
-            <option value="es">Español</option>
-            <option value="fr">Français</option>
-        </select>
+        <div className="flex flex-wrap w-32 mb-6">
+            <Select
+                aria-label="Language"
+                size="sm"
+                className="max-w-xs"
+                onChange={handleChange}
+                defaultSelectedKeys={[locale.props]}
+            >
+                <SelectItem key="en" value="en">
+                    English
+                </SelectItem>
+                <SelectItem key="es" value="es">
+                    Español
+                </SelectItem>
+                <SelectItem key="fr" value="fr">
+                    Français
+                </SelectItem>
+            </Select>
+        </div>
+        
     );
 }
