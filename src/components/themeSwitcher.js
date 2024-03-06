@@ -24,7 +24,7 @@ export function ThemeSwitcher() {
     <Switch
       defaultSelected
       size="lg"
-      color="secondary"
+      color="default"
       thumbIcon={({ isSelected, className }) =>
           isSelected ? (
           <SunIcon className={className} />
