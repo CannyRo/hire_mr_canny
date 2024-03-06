@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import React from "react";
 import {Switch} from "@nextui-org/react";
 import {MoonIcon} from "./_moonIcon";
