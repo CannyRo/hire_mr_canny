@@ -9,13 +9,18 @@ export function Footer(){
     const t = useTranslations('home');
 
     return(
-        <div className="bg-red-200 w-full py-4 px-8 mx-auto">
+        <div className="bg-red-200 w-full py-4 px-2 sm:px-8 mx-auto">
             <h3>{t('footer.title')}</h3>
             <div className="flex flex-col justify-between items-start sm:flex-row sm:items-end">
-                <div className="mt-4">
-                    <p>{t('footer.phone.title')} : {t('footer.phone.content')}</p>
-                    <p>{t('footer.email.title')} : {t('footer.email.content')}</p>
-                    <p>{t('footer.localization.title')} : {t('footer.localization.content')}</p>
+                <div className="mt-4 flex">
+                    <div className="me-4">
+                        <p>{t('footer.phone.title')} :</p>
+                        <p>{t('footer.email.title')} :</p>
+                    </div>
+                    <div className="blur-sm hover:blur-none focus:blur-none active:blur-none">
+                        <p>{t('footer.phone.content')}</p>
+                        <p>{t('footer.email.content')}</p>
+                    </div>
                 </div>
                 <div className="mt-4">
                     <p>{t('footer.socials.github')}</p>

@@ -32,8 +32,14 @@
         "linkedin": "LinkedIn",
         "website": "Website"
       },
-      "ironhacklink": "About Ironhack",
-      "opca": "About OPCA"
+      "ironhack": {
+        "title": "About Ironhack",
+        "link": "https://www.ironhack.com/fr-en/web-development/paris"
+      },
+      "opca": "About OPCA",
+      "signatureintro": "Coded by ",
+      "signaturelink": "WhatCannyDev",
+      "signaturetooltip": "moi"
     }
   }
 }
