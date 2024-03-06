@@ -9,7 +9,7 @@ export function Footer(){
     const t = useTranslations('home');
 
     return(
-        <div className="bg-red-200 w-full py-4 px-2 sm:px-8 mx-auto">
+        <div className="w-full py-4 px-2 sm:px-8 mx-auto">
             <h3>{t('footer.title')}</h3>
             <div className="flex flex-col justify-between items-start sm:flex-row sm:items-end">
                 <div className="mt-4 flex">
