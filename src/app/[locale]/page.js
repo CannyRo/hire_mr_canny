@@ -1,13 +1,16 @@
 import Image from "next/image";
 import {Button} from '@nextui-org/button'; 
 import { ThemeSwitcher } from "@/components/themeSwitcher";
+import {LanguageSelector } from "@/components/languageSelector";
 import {useTranslations} from 'next-intl';
 
-export default function Home() {
+export default function Home({params: {locale}}) {
   const t = useTranslations('home');
-
+  // console.log("Local in Page : ", locale);
+  const languageValue = locale ;
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <LanguageSelector props={languageValue}/>
       <ThemeSwitcher/>
       <Button>Click me</Button>
       <h1>{t('title')}</h1>
