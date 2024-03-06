@@ -21,23 +21,19 @@ export function ThemeSwitcher() {
   if(!mounted)return null;
 
   return (
-    <div>
-      The current theme is: {theme} <br/>
-      <Switch
-        defaultSelected
-        size="lg"
-        color="secondary"
-        thumbIcon={({ isSelected, className }) =>
-            isSelected ? (
-            <SunIcon className={className} />
-            ) : (
-            <MoonIcon className={className} />
-            )
-        }
-        onChange={handleTheme}
-        >
-        Dark mode
-        </Switch>
-    </div>
+    <Switch
+      defaultSelected
+      size="lg"
+      color="secondary"
+      thumbIcon={({ isSelected, className }) =>
+          isSelected ? (
+          <SunIcon className={className} />
+          ) : (
+          <MoonIcon className={className} />
+          )
+      }
+      onChange={handleTheme}
+      >
+    </Switch>
   );
 }
