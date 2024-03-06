@@ -1,4 +1,4 @@
-import {Providers} from "../../providers";
+import { Providers } from "@/providers";
 import { Inter } from "next/font/google";
 import "../globals.css";
 
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang={locale}>
-      <body className={inter.className}>
+      <body className={inter.className} props={locale}>
       <Providers>
         {children}
       </Providers>
