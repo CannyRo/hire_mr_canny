@@ -11,6 +11,13 @@
     "price": {
 
     },
+    "about": {
+      "resume": {
+        "1": "Si vous êtes arrivés jusqu'ici sans avoir pris votre décision alors laissez-moi au moins me présenter en quelques lignes. Je m'appelle Ronan et je suis admis au programme développement web d'Ironhack.",
+        "2": "Après avoir vécu presque 2 ans en Colombie, je souhaite finaliser ma reconversion professionnelle et obtenir un premier poste de développeur Frontend React JS ou Fullstack MERN en contrat de professionnalisation. J’ai donc deux objectifs à court terme, trouver une entreprise qui voudra travailler avec moi afin d’acquérir une expérience enrichissante tant pédagogiquement que professionnellement et humainement ; et  obtenir une certification de développeur reconnue sur le marché français, car à l’heure actuelle, celle que je possède n’est valable que sur le marché colombien.",
+        "3": "Voilà qui doit vous laissez avec un certain nombre d’interrogations. J’attends votre appel ou votre email avec impatience afin de pouvoir échanger à propos de notre future collaboration."
+      }
+    },
     "testimonial": {
 
     },
