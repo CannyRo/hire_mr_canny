@@ -12,7 +12,7 @@ export function Header(locale) {
             <Image 
                 width={100}
                 alt="Logo"
-                src="/logo_light_skull_nude.svg"
+                src="/logo_skull_rounded_light.svg"
             />
         </NavbarBrand>
         <NavbarContent justify="end">
