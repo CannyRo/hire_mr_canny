@@ -12,6 +12,13 @@
     "price": {
 
     },
+    "about": {
+      "resume": {
+        "1": "If you've got this far without having made up your mind, then let me introduce myself in a few words. My name is Ronan and I've been accepted into Ironhack's web development program.",
+        "2": "After living in Colombia for almost 2 years, I'd like to finalize my professional reconversion and get my first job as a Frontend React JS or Fullstack MERN developer under a professionalization contract. I therefore have two short-term objectives: to find a company willing to work with me in order to gain an enriching experience both pedagogically, professionally and humanely; and to obtain a developer certification recognized on the French market, as the one I currently hold is only valid on the Colombian market.",
+        "3": "That must leave you with a number of questions. I look forward to your call or email, so that we can talk about our future collaboration."
+      }
+    },
     "testimonial": {
 
     },
