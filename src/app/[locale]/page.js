@@ -9,6 +9,8 @@ import { Price } from "@/components/price";
 import { Testimonial } from "@/components/testimonial";
 import { Footer } from "@/components/footer";
 import {useTranslations} from 'next-intl';
+import { About } from "@/components/about";
+import { Form } from "@/components/form";
 
 export default function Home({params: {locale}}) {
   const t = useTranslations('home');
@@ -20,7 +22,9 @@ export default function Home({params: {locale}}) {
       <Hero/>
       <Argument/>
       <Price/>
+      <About/>
       <Testimonial/>
+      <Form/>
       <Footer/>
     </main>
   );
