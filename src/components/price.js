@@ -1,13 +1,11 @@
 import React from "react";
 import {
+  Button,
   Card,
   CardHeader,
   CardBody,
   CardFooter,
   Divider,
-  Link,
-  Image,
-  Button,
 } from "@nextui-org/react";
 
 export function Price() {
@@ -82,7 +80,7 @@ export function Price() {
             
         </CardFooter>
       </Card>
-      <p className="px-10 text-xs">Chiffres non-contractuels, calculés sur la base des informations disponibles en ligne et notamment sur ironhack.com, talent.com, alternance-professionnelle.fr et urssaf.fr.</p>
+      <p className="px-10 text-xs mb-8">*Chiffres non-contractuels, calculés sur la base des informations disponibles en ligne et notamment sur ironhack.com, talent.com, alternance-professionnelle.fr et urssaf.fr.</p>
     </div>
   );
 }
