@@ -4,7 +4,9 @@ import { React, useState } from "react";
 import {Button, Input, Textarea} from "@nextui-org/react";
 import emailjs from '@emailjs/browser'; 
 
-export function Form() {
+
+export function Form(props) {
+
     const [values, setValues] = useState({
         firstName : "",
         lastName : "",
@@ -200,12 +202,12 @@ export function Form() {
         <div className="container flex flex-col px-10 py-8">
             <Input name="firstName" type="text" label="John" className="mb-4" isRequired value={values.firstName} onChange={handleFirstName} onBlur={isValid} isInvalid={isInvalid.firstName}/>
             <Input name="lastName" type="text" label="DOE" className="mb-4" isRequired value={values.lastName} onChange={handleLastName} onBlur={isValid} isInvalid={isInvalid.lastName}/>
-            <Input name="company" type="text" label="Mon Entreprise" className="mb-4" value={values.company} onChange={handleCompany} onBlur={isValid}/>
+            <Input name="company" type="text" label={props.placeholderCompany} className="mb-4" value={values.company} onChange={handleCompany} onBlur={isValid}/>
             <Input name="email" type="email" label="john.doe@email.com" className="mb-4" isRequired value={values.email} onChange={handleEmail} onBlur={isValid} isInvalid={isInvalid.email}/>
             <Textarea
                 name="message"
                 variant="default"
-                placeholder="Bonjour, je souhaite vous recruter et économiser 21 000 euros..."
+                placeholder={props.placeholderTextarea}
                 value={values.message}
                 onChange={handleMessage}
                 className="mb-4"
@@ -214,7 +216,7 @@ export function Form() {
                 isInvalid={isInvalid.message}
             />
             <Button color="secondary" variant="shadow" size="lg" className="w-full text-md" onClick={sendMessage}>
-                Envoyer
+                {props.placeholderCta}
             </Button>
         </div>
     );
