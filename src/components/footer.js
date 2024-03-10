@@ -3,13 +3,14 @@ import React from "react";
 import {useTranslations} from 'next-intl';
 import { Image, Link, Tooltip } from "@nextui-org/react";
 import {OpcaModal} from "./opcaModal";
+import { GithubIcon } from "./_githubIcon";
 
 
 export function Footer(){
     const t = useTranslations('home');
 
     return(
-        <div className="w-full py-4 px-2 sm:px-8 mx-auto">
+        <div className="w-full pt-12 pb-4 px-2 sm:px-8 mx-auto">
             <h3>{t('footer.title')}</h3>
             <div className="flex flex-col justify-between items-start sm:flex-row sm:items-end">
                 <div className="mt-4 flex">
@@ -20,14 +21,16 @@ export function Footer(){
                 </div>
                 <div className="mt-12 flex justify-center w-full">
                     <Link isExternal href="https://github.com/CannyRo" className="mx-4">
-                        <Image 
+                        <Image
+                            className="dark:invert"
                             width={32}
-                            alt="Github"
+                            alt="LinkedIn"
                             src="/icon_github.svg"
-                        />
+                            />
                     </Link>
-                    <Link isExternal href="www.linkedin.com/in/ronan-canny-b29443277" className="mx-4">
-                        <Image 
+                    <Link isExternal href="https://www.linkedin.com/in/ronan-canny-b29443277" className="mx-4">
+                        <Image
+                            className="dark:invert"
                             width={32}
                             alt="LinkedIn"
                             src="/icon_linkedin.svg"
@@ -35,6 +38,7 @@ export function Footer(){
                     </Link>
                     <Link isExternal href="https://whatcannydev.com/" className="mx-4">
                         <Image 
+                            className="dark:invert"
                             width={32}
                             alt="website"
                             src="/icon_link.svg"
