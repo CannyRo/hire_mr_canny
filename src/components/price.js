@@ -13,7 +13,7 @@ export function Price() {
     <div className="container flex flex-col items-center pt-12">
       <Card className="w-5/6 mb-8">
         <CardHeader className="flex flex-col h-28 justify-between">
-            <p className="text-lg font-semibold text-center">Contrat de professionnalisation</p>
+            <p className="w-full text-lg font-semibold">Contrat de professionnalisation</p>
             <p className="w-full"><span className="text-xl tracking-wide font-bold">23 450 €</span> / an</p>
         </CardHeader>
         <Divider />
@@ -37,7 +37,7 @@ export function Price() {
       </Card>
       <Card className="w-5/6 mb-8">
         <CardHeader className="flex flex-col justify-between h-28">
-            <p className="text-lg font-semibold text-center">CDD / CDI (junior)</p>
+            <p className="w-full text-lg font-semibold">CDD / CDI (junior)</p>
             <p className="w-full"><span className="text-xl tracking-wide font-bold">44 570 €</span> / an</p>
         </CardHeader>
         <Divider />
@@ -59,8 +59,8 @@ export function Price() {
       </Card>
       <Card className="w-5/6 mb-8">
         <CardHeader className="flex flex-col justify-between h-28">
-            <p className="text-lg font-semibold">Freelance</p>
-            <p className="text-xs px-10">Equivalent annuel sur la base d&apos;un TJM à 350 € pour un profil junior.</p>
+            <p className="w-full text-lg font-semibold">Freelance</p>
+            <p className="w-full text-xs">Equivalent annuel sur la base d&apos;un TJM à 350 € pour un profil junior.</p>
             <p className="w-full"><span className="text-xl tracking-wide font-bold">79 450 €</span> / an</p>
         </CardHeader>
         <Divider />

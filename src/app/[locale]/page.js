@@ -23,7 +23,6 @@ export default function Home({params: {locale}}) {
       <Argument/>
       <Price/>
       <About/>
-      <Testimonial/>
       <Form/>
       <Footer/>
     </main>

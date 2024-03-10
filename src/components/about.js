@@ -7,7 +7,7 @@ export function About(){
     const t = useTranslations('home');
 
     return(
-        <div className="container flex flex-col items-center">
+        <div className="container flex flex-col items-center py-8">
             <Image
                 src="/avatar.svg"
                 alt="avatar"
