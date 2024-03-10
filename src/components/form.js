@@ -70,6 +70,11 @@ export function Form() {
                         firstName : true
                     });
                     console.log("firstName is INVALID");
+                } else {
+                    setIsInvalid({
+                        ...isInvalid,
+                        firstName : false
+                    })
                 }
                 break;
             case 'lastName' : 
@@ -80,6 +85,11 @@ export function Form() {
                         lastName : true
                     });
                     console.log("lastName is INVALID");
+                } else {
+                    setIsInvalid({
+                        ...isInvalid,
+                        lastName : false
+                    })
                 }
                 break;
             case 'message' : 
@@ -90,6 +100,11 @@ export function Form() {
                         message : true
                     });
                     console.log("message is INVALID");
+                } else {
+                    setIsInvalid({
+                        ...isInvalid,
+                        message : false
+                    })
                 }
                 break;
             case 'email' : 
@@ -100,6 +115,11 @@ export function Form() {
                         email : true
                     });
                     console.log("message is INVALID");
+                } else {
+                    setIsInvalid({
+                        ...isInvalid,
+                        email : false
+                    })
                 }
                 break;
             case 'company' :
