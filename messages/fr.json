@@ -160,6 +160,64 @@
         "link": "https://lp.ironhack.com/fr/apprenticeship"
       },
       "opca": "Connaître mon OPCA",
+      "modalTitle": "Liste de OPCO (Opérateurs de compétences)",
+      "modal": {
+        "1":{
+          "title": "AFDAS",
+          "subtitle": "OPCO Culture, médias, loisirs et sport",
+          "link": "https://www.afdas.com/"
+        },
+        "2":{
+          "title": "ATLAS",
+          "subtitle": "OPCO des services financiers et service de conseil",
+          "link": "https://www.opco-atlas.fr/"
+        },
+        "3":{
+          "title": "Uniformation",
+          "subtitle": "OPCO de la cohésion sociale",
+          "link": "https://www.uniformation.fr/"
+        },
+        "4":{
+          "title": "AKTO",
+          "subtitle": "OPCO des entreprises à forte intensité de main d'œuvre",
+          "link": "https://www.akto.fr/"
+        },
+        "5":{
+          "title": "OCAPIAT",
+          "subtitle": "OPCO de l'agriculture, la pêche et l'agroalimentaire",
+          "link": "https://www.ocapiat.fr/"
+        },
+        "6":{
+          "title": "2I",
+          "subtitle": "OPCO inter-industriel",
+          "link": "https://www.opco2i.fr/"
+        },
+        "7":{
+          "title": "Constructys",
+          "subtitle": "OPCO de la construction",
+          "link": "https://www.constructys.fr/"
+        },
+        "8":{
+          "title": "OPCO Mobilités",
+          "subtitle": "OPCO des métiers de la mobilité",
+          "link": "https://www.opcomobilites.fr/"
+        },
+        "9":{
+          "title": "OPCO EP",
+          "subtitle": "OPCO des entreprises de proximité",
+          "link": "https://www.opcoep.fr/"
+        },
+        "10":{
+          "title": "OPCO Santé",
+          "subtitle": "OPCO des métiers de la santé",
+          "link": "https://www.opco-sante.fr/"
+        },
+        "11":{
+          "title": "Opcommerce",
+          "subtitle": "OPCO des entreprises du commerce",
+          "link": "https://www.lopcommerce.com/"
+        }
+      },
       "signatureintro": "Coded by ",
       "signaturelink": "WhatCannyDev",
       "signaturetooltip": "moi"

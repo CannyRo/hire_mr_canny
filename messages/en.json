@@ -163,6 +163,64 @@
         "link": "https://www.ironhack.com/fr-en/web-development/paris"
       },
       "opca": "About OPCA",
+      "modalTitle": "List of OPCO (Opérateurs de compétences)",
+      "modal": {
+        "1":{
+          "title": "AFDAS",
+          "subtitle": "Culture, media, leisure and sport",
+          "link": "https://www.afdas.com/"
+        },
+        "2":{
+          "title": "ATLAS",
+          "subtitle": "OPCO of financial and consulting services",
+          "link": "https://www.opco-atlas.fr/"
+        },
+        "3":{
+          "title": "Uniformation",
+          "subtitle": "OPCO of the social cohesion",
+          "link": "https://www.uniformation.fr/"
+        },
+        "4":{
+          "title": "AKTO",
+          "subtitle": "OPCO of labor-intensive companies",
+          "link": "https://www.akto.fr/"
+        },
+        "5":{
+          "title": "OCAPIAT",
+          "subtitle": "OPCO of agriculture, fisheries and agrifoods",
+          "link": "https://www.ocapiat.fr/"
+        },
+        "6":{
+          "title": "2I",
+          "subtitle": "OPCO inter-industrial",
+          "link": "https://www.opco2i.fr/"
+        },
+        "7":{
+          "title": "Constructys",
+          "subtitle": "OPCO of construction industry",
+          "link": "https://www.constructys.fr/"
+        },
+        "8":{
+          "title": "OPCO Mobilités",
+          "subtitle": "OPCO of mobility trades",
+          "link": "https://www.opcomobilites.fr/"
+        },
+        "9":{
+          "title": "OPCO EP",
+          "subtitle": "OPCO of local businesses",
+          "link": "https://www.opcoep.fr/"
+        },
+        "10":{
+          "title": "OPCO Santé",
+          "subtitle": "OPCO of health professions",
+          "link": "https://www.opco-sante.fr/"
+        },
+        "11":{
+          "title": "Opcommerce",
+          "subtitle": "OPCO of trade companies",
+          "link": "https://www.lopcommerce.com/"
+        }
+      },
       "signatureintro": "Coded by ",
       "signaturelink": "WhatCannyDev",
       "signaturetooltip": "me"
