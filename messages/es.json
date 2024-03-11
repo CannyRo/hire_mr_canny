@@ -37,7 +37,7 @@
           },
           "reduction": {
             "title" : "Reducción",
-            "value": "- 7\u00a0500\u00a0€"
+            "value": "-\u00a07\u00a0500\u00a0€"
           },
           "cost": {
             "title" : "Costes educativos",
@@ -45,11 +45,11 @@
           },
           "opco":{
             "title" : "Reembolso del OPCO",
-            "value": "- 6\u00a0150\u00a0€"
+            "value": "-\u00a06\u00a0150\u00a0€"
           },
           "franceTravail": {
             "title": "Reembolso de France\u00a0Travail",
-            "value": "- 2\u00a0000\u00a0€"
+            "value": "-\u00a02\u00a0000\u00a0€"
           }
         },
         "cta": "Firmo ya!"

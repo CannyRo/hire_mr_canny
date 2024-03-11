@@ -11,7 +11,6 @@ import { Footer } from "@/components/footer";
 
 export default function Home({params: {locale}}) {
   const t = useTranslations('home');
-  // console.log("Local in Page : ", locale);
   const languageValue = locale ;
   return (
     <main className="flex min-h-screen flex-col items-center">

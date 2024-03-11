@@ -57,21 +57,13 @@ export function Form(props) {
     }
 
     function isValid(e){
-        console.log('WHERE : ');
-        console.log(e.target.name);
-        console.log('HIS INPUT VALUE : ');
-        console.log(e.target.value);
-        console.log('STATE VALUES : ');
-        console.log(values);
         switch(e.target.name){
             case 'firstName' :
-                console.log("Test firstName");
                 if(values.firstName == "" || values.firstName == undefined || values.firstName == null){
                     setIsInvalid({
                         ...isInvalid,
                         firstName : true
                     });
-                    console.log("firstName is INVALID");
                 } else {
                     setIsInvalid({
                         ...isInvalid,
@@ -80,13 +72,11 @@ export function Form(props) {
                 }
                 break;
             case 'lastName' : 
-                console.log("Test lastName");
                 if(values.lastName == "" || values.lastName == undefined || values.lastName == null){
                     setIsInvalid({
                         ...isInvalid,
                         lastName : true
                     });
-                    console.log("lastName is INVALID");
                 } else {
                     setIsInvalid({
                         ...isInvalid,
@@ -95,13 +85,11 @@ export function Form(props) {
                 }
                 break;
             case 'message' : 
-                console.log("Test message");
                 if(values.message == "" || values.message == undefined || values.message == null){
                     setIsInvalid({
                         ...isInvalid,
                         message : true
                     });
-                    console.log("message is INVALID");
                 } else {
                     setIsInvalid({
                         ...isInvalid,
@@ -110,13 +98,11 @@ export function Form(props) {
                 }
                 break;
             case 'email' : 
-                console.log("Test email");
                 if(values.email == "" || values.email == undefined || values.email == null || !emailRegex.test(values.email)){
                     setIsInvalid({
                         ...isInvalid,
                         email : true
                     });
-                    console.log("message is INVALID");
                 } else {
                     setIsInvalid({
                         ...isInvalid,
@@ -125,7 +111,6 @@ export function Form(props) {
                 }
                 break;
             case 'company' :
-                console.log("Test company");
                 break;
             default :
                 setIsInvalid({
@@ -142,26 +127,21 @@ export function Form(props) {
         const serviceId = process.env.NEXT_PUBLIC_EMAILJS_ID;
         const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
         const publicKey = process.env.NEXT_PUBLIC_EMAILJS_KEY;
-
-        console.log("Avant analyse : ");
-        console.log(values);
         if(
-            values.firstName == "" || 
-            values.firstName == undefined || 
-            values.firstName == null ||
-            values.lastName == "" || 
-            values.lastName == undefined || 
-            values.lastName == null ||
-            values.message == "" || 
-            values.message == undefined || 
-            values.message == null ||
-            values.email == "" || 
-            values.email == undefined || 
-            values.email == null ||
-            !emailRegex.test(values.email)
+            values.firstName !== "" && 
+            values.firstName !== undefined && 
+            values.firstName !== null &&
+            values.lastName !== "" && 
+            values.lastName !== undefined && 
+            values.lastName !== null &&
+            values.message !== "" && 
+            values.message !== undefined && 
+            values.message !== null &&
+            values.email !== "" && 
+            values.email !== undefined && 
+            values.email !== null &&
+            emailRegex.test(values.email)
         ){
-            console.log('THERE IS A PROBLEM HOUSTON')
-        } else {
             setIsInvalid({
                 firstName : false,
                 lastName : false,

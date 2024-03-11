@@ -11,12 +11,8 @@ export function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
 
   let initialTheme = window.localStorage.getItem("theme") || "dark";
-  console.log("n°1");
-  console.log(theme);
   useEffect(() => {
     setMounted(true);
-    console.log("n°2");
-    console.log(theme);
     if(theme !== 'dark' && theme  !== 'light'){
       setTheme(initialTheme)
     }

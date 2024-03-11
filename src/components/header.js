@@ -4,7 +4,6 @@ import { LanguageSelector } from "./languageSelector";
 import { ThemeSwitcher } from "./themeSwitcher";
 
 export function Header(locale) {
-    console.log(locale);
   return (
     <div className="w-full mx-auto bg-stone-200">
       <Navbar>
