@@ -160,6 +160,64 @@
         "link": "https://lp.ironhack.com/fr/apprenticeship"
       },
       "opca": "Acerca de los OPCO",
+      "modalTitle": "Lista de OPCO (Operadores de Competencias)",
+      "modal": {
+        "1":{
+          "title": "AFDAS",
+          "subtitle": "OPCO de la Cultura, medios de comunicación, ocio y deporte",
+          "link": "https://www.afdas.com/"
+        },
+        "2":{
+          "title": "ATLAS",
+          "subtitle": "OPCO de los servicios financieros y de asesoramiento",
+          "link": "https://www.opco-atlas.fr/"
+        },
+        "3":{
+          "title": "Uniformation",
+          "subtitle": "OPCO de cohesión social",
+          "link": "https://www.uniformation.fr/"
+        },
+        "4":{
+          "title": "AKTO",
+          "subtitle": "OPCO de empresas con gran intensidad de mano de obra",
+          "link": "https://www.akto.fr/"
+        },
+        "5":{
+          "title": "OCAPIAT",
+          "subtitle": "OPCO de la agricultura, la pesca y la industria agroalimentaria",
+          "link": "https://www.ocapiat.fr/"
+        },
+        "6":{
+          "title": "2I",
+          "subtitle": "OPCO interindustrial",
+          "link": "https://www.opco2i.fr/"
+        },
+        "7":{
+          "title": "Constructys",
+          "subtitle": "OPCO de la construcción",
+          "link": "https://www.constructys.fr/"
+        },
+        "8":{
+          "title": "OPCO Mobilités",
+          "subtitle": "OPCO de los oficios de la movilidad",
+          "link": "https://www.opcomobilites.fr/"
+        },
+        "9":{
+          "title": "OPCO EP",
+          "subtitle": "OPCO de las empresas locales",
+          "link": "https://www.opcoep.fr/"
+        },
+        "10":{
+          "title": "OPCO Santé",
+          "subtitle": "OPCO de las profesiones sanitarias",
+          "link": "https://www.opco-sante.fr/"
+        },
+        "11":{
+          "title": "Opcommerce",
+          "subtitle": "OPCO de las empresas comerciales",
+          "link": "https://www.lopcommerce.com/"
+        }
+      },
       "signatureintro": "Coded by ",
       "signaturelink": "WhatCannyDev",
       "signaturetooltip": "yo"

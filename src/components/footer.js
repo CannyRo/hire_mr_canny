@@ -9,6 +9,120 @@ import { GithubIcon } from "./_githubIcon";
 export function Footer(){
     const t = useTranslations('home');
 
+    const modalContent = {
+        1:{
+            title: t('footer.modal.1.title'),
+            subtitle: t('footer.modal.1.subtitle'),
+            link: t('footer.modal.1.link')
+        },
+        2:{
+            title: t('footer.modal.2.title'),
+            subtitle: t('footer.modal.2.subtitle'),
+            link: t('footer.modal.2.link')
+        },
+        3:{
+            title: t('footer.modal.3.title'),
+            subtitle: t('footer.modal.3.subtitle'),
+            link: t('footer.modal.3.link')
+        },
+        4:{
+            title: t('footer.modal.4.title'),
+            subtitle: t('footer.modal.4.subtitle'),
+            link: t('footer.modal.4.link')
+        },
+        5:{
+            title: t('footer.modal.5.title'),
+            subtitle: t('footer.modal.5.subtitle'),
+            link: t('footer.modal.5.link')
+        },
+        6:{
+            title: t('footer.modal.6.title'),
+            subtitle: t('footer.modal.6.subtitle'),
+            link: t('footer.modal.6.link')
+        },
+        7:{
+            title: t('footer.modal.7.title'),
+            subtitle: t('footer.modal.7.subtitle'),
+            link: t('footer.modal.7.link')
+        },
+        8:{
+            title: t('footer.modal.8.title'),
+            subtitle: t('footer.modal.8.subtitle'),
+            link: t('footer.modal.8.link')
+        },
+        9:{
+            title: t('footer.modal.9.title'),
+            subtitle: t('footer.modal.9.subtitle'),
+            link: t('footer.modal.9.link')
+        },
+        10:{
+            title: t('footer.modal.10.title'),
+            subtitle: t('footer.modal.10.subtitle'),
+            link: t('footer.modal.10.link')
+        },
+        11:{
+            title: t('footer.modal.11.title'),
+            subtitle: t('footer.modal.11.subtitle'),
+            link: t('footer.modal.11.link')
+        }
+    }
+    const contentArray = [
+        {
+            title: t('footer.modal.1.title'),
+            subtitle: t('footer.modal.1.subtitle'),
+            link: t('footer.modal.1.link')
+        },
+        {
+            title: t('footer.modal.2.title'),
+            subtitle: t('footer.modal.2.subtitle'),
+            link: t('footer.modal.2.link')
+        },
+        {
+            title: t('footer.modal.3.title'),
+            subtitle: t('footer.modal.3.subtitle'),
+            link: t('footer.modal.3.link')
+        },
+        {
+            title: t('footer.modal.4.title'),
+            subtitle: t('footer.modal.4.subtitle'),
+            link: t('footer.modal.4.link')
+        },
+        {
+            title: t('footer.modal.5.title'),
+            subtitle: t('footer.modal.5.subtitle'),
+            link: t('footer.modal.5.link')
+        },
+        {
+            title: t('footer.modal.6.title'),
+            subtitle: t('footer.modal.6.subtitle'),
+            link: t('footer.modal.6.link')
+        },
+        {
+            title: t('footer.modal.7.title'),
+            subtitle: t('footer.modal.7.subtitle'),
+            link: t('footer.modal.7.link')
+        },
+        {
+            title: t('footer.modal.8.title'),
+            subtitle: t('footer.modal.8.subtitle'),
+            link: t('footer.modal.8.link')
+        },
+        {
+            title: t('footer.modal.9.title'),
+            subtitle: t('footer.modal.9.subtitle'),
+            link: t('footer.modal.9.link')
+        },
+        {
+            title: t('footer.modal.10.title'),
+            subtitle: t('footer.modal.10.subtitle'),
+            link: t('footer.modal.10.link')
+        },
+        {
+            title: t('footer.modal.11.title'),
+            subtitle: t('footer.modal.11.subtitle'),
+            link: t('footer.modal.11.link')
+        }
+    ]
     return(
         <div className="w-full pt-12 pb-4 px-2 sm:px-8 mx-auto">
             <h3>{t('footer.title')}</h3>
@@ -47,7 +161,7 @@ export function Footer(){
                 </div>
                 <div className="mt-12 flex flex-col">
                     <Link isExternal href={t('footer.ironhack.link')} showAnchorIcon>{t('footer.ironhack.title')}</Link>
-                    <OpcaModal detail={t('footer.opca')}/>
+                    <OpcaModal detail={t('footer.opca')} modalTitle={t('footer.modalTitle')} modalContent={contentArray}/>
                 </div>
             </div>
             <div className="mt-8 text-center">
