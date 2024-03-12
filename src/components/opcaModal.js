@@ -18,8 +18,9 @@ export function OpcaModal(props) {
   const modalContent=props.modalContent;
   return (
     <>
-      <Link onPress={onOpen} className="font-semibold">{props.detail}</Link>
-      <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+      <Link onPress={onOpen} className="font-semibold cursor-pointer">{props.detail}</Link>
+      <Modal isOpen={isOpen} onOpenChange={onOpenChange}
+        placement="center" scrollBehavior="outside">
         <ModalContent>
           <ModalHeader className="flex flex-col gap-1">
             {props.modalTitle}
@@ -29,8 +30,8 @@ export function OpcaModal(props) {
             {
               modalContent.map(foo=>{
                 return(
-                  <li key={modalContent.indexOf(foo)}>
-                    <span>{foo.title}</span>{foo.subtitle}
+                  <li key={modalContent.indexOf(foo)} className="mb-4">
+                    <span className="font-bold">{foo.title}</span> : {foo.subtitle}
                     <Link isExternal showAnchorIcon href={foo.link}>
                     </Link>
                   </li>

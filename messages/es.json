@@ -28,27 +28,27 @@
         "detailTitle": "Detalle",
         "detail": {
           "gross": {
-            "title" : "Salario bruto",
+            "title" : "Salario bruto\u00a0:",
             "value": "21\u00a0200\u00a0€"
           },
           "contribution": {
-            "title" : "Contribución patronal",
+            "title" : "Contribución patronal\u00a0:",
             "value": "8\u00a0900\u00a0€"
           },
           "reduction": {
-            "title" : "Reducción",
+            "title" : "Reducción\u00a0:",
             "value": "-\u00a07\u00a0500\u00a0€"
           },
           "cost": {
-            "title" : "Costes educativos",
+            "title" : "Costes educativos\u00a0:",
             "value": "9\u00a0000\u00a0€"
           },
           "opco":{
-            "title" : "Reembolso del OPCO",
+            "title" : "Reembolso del OPCO\u00a0:",
             "value": "-\u00a06\u00a0150\u00a0€"
           },
           "franceTravail": {
-            "title": "Reembolso de France\u00a0Travail",
+            "title": "Reembolso de France\u00a0Travail\u00a0:",
             "value": "-\u00a02\u00a0000\u00a0€"
           }
         },
@@ -62,27 +62,27 @@
         "detailTitle": "Detalle",
         "detail": {
           "gross": {
-            "title" : "Salairio bruto",
+            "title" : "Salairio bruto\u00a0:",
             "value": "31\u00a0390\u00a0€"
           },
           "contribution": {
-            "title" : "Contribución patronal",
+            "title" : "Contribución patronal\u00a0:",
             "value": "13\u00a0180\u00a0€"
           },
           "reduction": {
-            "title" : "Reducción",
+            "title" : "Reducción\u00a0:",
             "value": "x"
           },
           "cost": {
-            "title" : "Costes educativos",
+            "title" : "Costes educativos\u00a0:",
             "value": "x"
           },
           "opco":{
-            "title" : "Reembolso del OPCO",
+            "title" : "Reembolso del OPCO\u00a0:",
             "value": "x"
           },
           "franceTravail": {
-            "title": "Reembolso de France Travail",
+            "title": "Reembolso de France\u00a0Travail\u00a0:",
             "value": "x"
           }
         },
@@ -96,27 +96,27 @@
         "detailTitle": "Détail",
         "detail": {
           "gross": {
-            "title" : "Salairio Bruto (honorarios)",
+            "title" : "Salairio Bruto (honorarios)\u00a0:",
             "value": "79\u00a0450\u00a0€"
           },
           "contribution": {
-            "title" : "Contribución patronal",
+            "title" : "Contribución patronal\u00a0:",
             "value": "x"
           },
           "reduction": {
-            "title" : "Reducción",
+            "title" : "Reducción\u00a0:",
             "value": "x"
           },
           "cost": {
-            "title" : "Costes educativos",
+            "title" : "Costes educativos\u00a0:",
             "value": "x"
           },
           "opco":{
-            "title" : "Reembolso del OPCO",
+            "title" : "Reembolso del OPCO\u00a0:",
             "value": "x"
           },
           "franceTravail": {
-            "title": "Reembolso de France Travail",
+            "title": "Reembolso de France\u00a0Travail\u00a0:",
             "value": "x"
           }
         }, 

@@ -13,7 +13,7 @@ export default function Home({params: {locale}}) {
   const t = useTranslations('home');
   const languageValue = locale ;
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <main className="flex min-h-screen flex-col items-center bg_gradient_perso">
       <Header props={languageValue}/>
       <Hero/>
       <Argument/>
