@@ -28,12 +28,12 @@ export function ThemeSwitcher() {
     <Switch
       defaultSelected
       size="lg"
-      color="default"
+      color="purple-100"
       thumbIcon={({ isSelected, className }) =>
           isSelected ? (
-          <SunIcon className={className} />
+          <SunIcon className={`${className} text-sky-950`} />
           ) : (
-          <MoonIcon className={className} />
+          <MoonIcon className={`${className} text-sky-950`} />
           )
       }
       onChange={handleTheme}
@@ -42,3 +42,6 @@ export function ThemeSwitcher() {
     </Switch>
   );
 }
+
+// px-1 relative inline-flex items-center justify-start flex-shrink-0 overflow-hidden bg-default-200 rounded-full outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background group-data-[selected=true]:bg-default-400 group-data-[selected=true]:text-default-foreground w-14 h-8 mr-2 transition-background
+// bg-default-200 group-data-[selected=true]:bg-default-400 

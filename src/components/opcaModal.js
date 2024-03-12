@@ -13,12 +13,12 @@ import {
 
 export function OpcaModal(props) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-  console.log(props);
+  // console.log(props);
 
   const modalContent=props.modalContent;
   return (
     <>
-      <Link onPress={onOpen}>{props.detail}</Link>
+      <Link onPress={onOpen} className="font-semibold">{props.detail}</Link>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
         <ModalContent>
           <ModalHeader className="flex flex-col gap-1">
@@ -27,15 +27,14 @@ export function OpcaModal(props) {
           <ModalBody>
             <ul>
             {
-            
-            modalContent.map(foo=>{
-              return(
-                <li key={modalContent.indexOf(foo)}>
-                  <span>{foo.title}</span>{foo.subtitle}
-                  <Link isExternal showAnchorIcon href={foo.link}>
-                  </Link>
-                </li>
-              )})
+              modalContent.map(foo=>{
+                return(
+                  <li key={modalContent.indexOf(foo)}>
+                    <span>{foo.title}</span>{foo.subtitle}
+                    <Link isExternal showAnchorIcon href={foo.link}>
+                    </Link>
+                  </li>
+                )})
             }
             </ul>
           </ModalBody>
