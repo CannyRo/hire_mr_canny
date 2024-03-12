@@ -5,8 +5,7 @@ import { ThemeSwitcher } from "./themeSwitcher";
 
 export function Header(locale) {
   return (
-    <div className="w-full mx-auto bg-stone-200">
-      <Navbar>
+      <Navbar position="sticky">
         <NavbarBrand>
             <Image 
                 width={100}
@@ -23,6 +22,5 @@ export function Header(locale) {
           </NavbarItem>
         </NavbarContent>
       </Navbar>
-    </div>
   );
 }

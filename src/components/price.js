@@ -40,7 +40,7 @@ export function Price() {
             <CardFooter className="h-20">
               {
                 t(`price.${foo}.cta`) !== "" ? 
-                <Button color="secondary" variant="shadow" size="lg" className="w-full text-md">
+                <Button variant="shadow" size="lg" className="w-full text-md bg-sky-400">
                     {t(`price.${foo}.cta`)}
                 </Button> : 
                 <></>
