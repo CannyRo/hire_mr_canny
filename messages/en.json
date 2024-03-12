@@ -1,19 +1,143 @@
 {
   "home": {
-    "title": "Hello word!",
-    "header" : {
-
-    },
     "hero": {
       "tagline01": "Hire a new talent and save ",
       "tagline02": "and save ",
-      "keyword01": "€12,000*."
+      "keyword01": "€12,000*.",
+      "tagline": "Hire a new talent and save €21,000*.",
+      "subtitle": "Because work-study is a win-win choice, don't hesitate to save your money, time and energy.",
+      "cta": "I recruit and save €21,000"
+    },
+    "arguments":{
+      "1":{
+        "title": "Save money",
+        "content": "Between the cost covered by your OPCO (Opérateur de Compétences), the contribution from France Travail and the applicable tax exemptions on your employer's contributions, save €21,000* for a 12-month period compared with a fixed-term or permanent contract with a junior developer profile."
+      },
+      "2":{
+        "title": "Save time",
+        "content": "A work-study program enables you to assess a candidate's skills and adaptability to the company's culture and processes over an extended period, before committing to a permanent contract. This reduces the risk of poor recruitment, and saves your company time. What's more, a candidate undergoing professional retraining can draw on cross-disciplinary skills already acquired during previous experience."
+      },
+      "3":{
+        "title": "Save energy",
+        "content": "The reduction in recruitment risk mentioned above also means energy savings for your HR functions. In fact, you'll need to look for and hire fewer new employees, since the professionalization contract gives you visibility over the next 12 months. And Ironhack's added bonus: a special format with all courses running continuously over 9 weeks, leaving the student 100% trained and 100% available on the job from the moment he or she takes up the position until the end of the contract. So you don't have to worry about his or her availability, especially for your sprints."
+      }
     },
     "price": {
-
+      "1": {
+        "title": "Professionalization contract",
+        "subtitle": "",
+        "price": "€23,450",
+        "period": " / year",
+        "detailTitle": "Detail",
+        "detail": {
+          "gross": {
+            "title" : "Gross salary",
+            "value": "€21,200"
+          },
+          "contribution": {
+            "title" : "Employer's contributions",
+            "value": "€8,900"
+          },
+          "reduction": {
+            "title" : "Deduction",
+            "value": "-\u00a0€7,500"
+          },
+          "cost": {
+            "title" : "Educational costs",
+            "value": "€9,000"
+          },
+          "opco":{
+            "title" : "OPCO support",
+            "value": "-\u00a0€6,150"
+          },
+          "franceTravail": {
+            "title": "Support from France\u00a0Travail",
+            "value": "-\u00a0€2,000"
+          }
+        },
+        "cta": "I sign"
+      },
+      "2": {
+        "title": "Fixed-term / Permanent contract (junior)",
+        "subtitle": "",
+        "price": "€44,570€",
+        "period": " / year",
+        "detailTitle": "Detail",
+        "detail": {
+          "gross": {
+            "title" : "Gross salary",
+            "value": "€31,390"
+          },
+          "contribution": {
+            "title" : "Employer's contributions",
+            "value": "€13,180"
+          },
+          "reduction": {
+            "title" : "Deduction",
+            "value": "x"
+          },
+          "cost": {
+            "title" : "Educational costs",
+            "value": "x"
+          },
+          "opco":{
+            "title" : "OPCO support",
+            "value": "x"
+          },
+          "franceTravail": {
+            "title": "Support from France\u00a0Travail",
+            "value": "x"
+          }
+        },
+        "cta": ""
+      },
+      "3": {
+        "title": "Freelance",
+        "subtitle": "Annual equivalent based on an ADR of €350 for a junior profile.",
+        "price": "€79,450",
+        "period": " / year",
+        "detailTitle": "Detail",
+        "detail": {
+          "gross": {
+            "title" : "Gross salary (fees)",
+            "value": "€79,450"
+          },
+          "contribution": {
+            "title" : "Employer's contributions",
+            "value": "x"
+          },
+          "reduction": {
+            "title" : "Deduction",
+            "value": "x"
+          },
+          "cost": {
+            "title" : "Educational costs",
+            "value": "x"
+          },
+          "opco":{
+            "title" : "OPCO support",
+            "value": "x"
+          },
+          "franceTravail": {
+            "title": "Support from France\u00a0Travail",
+            "value": "x"
+          }
+        }, 
+        "cta": ""
+      },
+      "nb": "*Non-contractual figures, calculated on the basis of information available online, in particular on ironhack.com, talent.com, alternance-professionnelle.fr and urssaf.fr."
     },
-    "testimonial": {
-
+    "about": {
+      "resume": {
+        "1": "If you've got this far without having made up your mind, then let me introduce myself in a few words. My name is Ronan and I've been accepted into Ironhack's web development program.",
+        "2": "After living in Colombia for almost 2 years, I'd like to finalize my professional reconversion and get my first job as a Frontend React JS or Fullstack MERN developer under a professionalization contract. I therefore have two short-term objectives: to find a company willing to work with me in order to gain an enriching experience both pedagogically, professionally and humanely; and to obtain a developer certification recognized on the French market, as the one I currently hold is only valid on the Colombian market.",
+        "3": "That must leave you with a number of questions. I look forward to your call or email, so that we can talk about our future collaboration."
+      }
+    },
+    "form": {
+      "company": "My company",
+      "message": "Dear Ronan, I'll be pleased to hire you and save €21,000...",
+      "cta": "Send"
     },
     "footer": {
       "title": "Ronan CANNY",
@@ -39,9 +163,67 @@
         "link": "https://www.ironhack.com/fr-en/web-development/paris"
       },
       "opca": "About OPCA",
+      "modalTitle": "List of OPCO (Opérateurs de compétences)",
+      "modal": {
+        "1":{
+          "title": "AFDAS",
+          "subtitle": "Culture, media, leisure and sport",
+          "link": "https://www.afdas.com/"
+        },
+        "2":{
+          "title": "ATLAS",
+          "subtitle": "OPCO of financial and consulting services",
+          "link": "https://www.opco-atlas.fr/"
+        },
+        "3":{
+          "title": "Uniformation",
+          "subtitle": "OPCO of the social cohesion",
+          "link": "https://www.uniformation.fr/"
+        },
+        "4":{
+          "title": "AKTO",
+          "subtitle": "OPCO of labor-intensive companies",
+          "link": "https://www.akto.fr/"
+        },
+        "5":{
+          "title": "OCAPIAT",
+          "subtitle": "OPCO of agriculture, fisheries and agrifoods",
+          "link": "https://www.ocapiat.fr/"
+        },
+        "6":{
+          "title": "2I",
+          "subtitle": "OPCO inter-industrial",
+          "link": "https://www.opco2i.fr/"
+        },
+        "7":{
+          "title": "Constructys",
+          "subtitle": "OPCO of construction industry",
+          "link": "https://www.constructys.fr/"
+        },
+        "8":{
+          "title": "OPCO Mobilités",
+          "subtitle": "OPCO of mobility trades",
+          "link": "https://www.opcomobilites.fr/"
+        },
+        "9":{
+          "title": "OPCO EP",
+          "subtitle": "OPCO of local businesses",
+          "link": "https://www.opcoep.fr/"
+        },
+        "10":{
+          "title": "OPCO Santé",
+          "subtitle": "OPCO of health professions",
+          "link": "https://www.opco-sante.fr/"
+        },
+        "11":{
+          "title": "Opcommerce",
+          "subtitle": "OPCO of trade companies",
+          "link": "https://www.lopcommerce.com/"
+        }
+      },
       "signatureintro": "Coded by ",
       "signaturelink": "WhatCannyDev",
-      "signaturetooltip": "moi"
+      "signaturetooltip": "me"
     }
   }
 }

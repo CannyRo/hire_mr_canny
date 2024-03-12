@@ -1,5 +1,226 @@
 {
-    "home": {
-      "title": "Hola mundo!"
+  "home": {
+    "hero": {
+      "tagline": "Contrate a un nuevo talento y ahorra 21\u00a0000\u00a0€*",
+      "subtitle": "Porque la formación en alternancia es una opción con la que todos ganan, no dude en ahorrar su dinero, su tiempo y su energía",
+      "cta": "Contrato y ahorro 21\u00a0000\u00a0€"
+    },
+    "arguments":{
+      "1":{
+        "title": "Ahorrar dinero",
+        "content": "Entre el coste cubierto por tu OPCO (Opérateur de Compétences), la cotización de France Travail y las exenciones fiscales aplicables a las cotizaciones de tu empresa; ahorra 21\u00a0000\u00a0* euros durante un periodo de 12 meses en comparación con un contrato de duración determinada o indefinido con un perfil de desarrollador junior."
+      },
+      "2":{
+        "title": "Ahorrar tiempo",
+        "content": "La formación en alternancia permite evaluar las habilidades y la adaptabilidad de un candidato a la cultura y los procesos de la empresa durante un periodo prolongado antes de comprometerse a un contrato indefinido. Esto reduce el riesgo de una mala contratación, lo que ahorra tiempo a su empresa. Además, un candidato en proceso de reciclaje profesional puede aprovechar las competencias transversales ya adquiridas en experiencias anteriores."
+      },
+      "3":{
+        "title": "Ahorrar energía",
+        "content": "La reducción del riesgo de contratación mencionada anteriormente también significa que sus funciones de RRHH ahorran energía. De hecho, tiene menos necesidad de buscar y contratar nuevo personal porque el contrato de profesionalización le da visibilidad sobre los próximos 12 meses. Y la ventaja añadida de Ironhack: un formato especial con todos los cursos impartidos de forma continua durante 9 semanas, lo que deja al estudiante en prácticas 100% formado y 100% disponible en la empresa desde el momento en que se incorpora al puesto hasta el final del contrato. Así no tendrá que preocuparse por su disponibilidad, especialmente para sus sprints."
+      }
+    },
+    "price": {
+      "1": {
+        "title": "Contrato de profesionalización",
+        "subtitle": "",
+        "price": "23\u00a0450\u00a0€",
+        "period": " / año",
+        "detailTitle": "Detalle",
+        "detail": {
+          "gross": {
+            "title" : "Salario bruto\u00a0:",
+            "value": "21\u00a0200\u00a0€"
+          },
+          "contribution": {
+            "title" : "Contribución patronal\u00a0:",
+            "value": "8\u00a0900\u00a0€"
+          },
+          "reduction": {
+            "title" : "Reducción\u00a0:",
+            "value": "-\u00a07\u00a0500\u00a0€"
+          },
+          "cost": {
+            "title" : "Costes educativos\u00a0:",
+            "value": "9\u00a0000\u00a0€"
+          },
+          "opco":{
+            "title" : "Reembolso del OPCO\u00a0:",
+            "value": "-\u00a06\u00a0150\u00a0€"
+          },
+          "franceTravail": {
+            "title": "Reembolso de France\u00a0Travail\u00a0:",
+            "value": "-\u00a02\u00a0000\u00a0€"
+          }
+        },
+        "cta": "Firmo ya!"
+      },
+      "2": {
+        "title": "Contrato fijo / indefinido (junior)",
+        "subtitle": "",
+        "price": "44\u00a0570\u00a0€",
+        "period": " / año",
+        "detailTitle": "Detalle",
+        "detail": {
+          "gross": {
+            "title" : "Salairio bruto\u00a0:",
+            "value": "31\u00a0390\u00a0€"
+          },
+          "contribution": {
+            "title" : "Contribución patronal\u00a0:",
+            "value": "13\u00a0180\u00a0€"
+          },
+          "reduction": {
+            "title" : "Reducción\u00a0:",
+            "value": "x"
+          },
+          "cost": {
+            "title" : "Costes educativos\u00a0:",
+            "value": "x"
+          },
+          "opco":{
+            "title" : "Reembolso del OPCO\u00a0:",
+            "value": "x"
+          },
+          "franceTravail": {
+            "title": "Reembolso de France\u00a0Travail\u00a0:",
+            "value": "x"
+          }
+        },
+        "cta": ""
+      },
+      "3": {
+        "title": "Freelance",
+        "subtitle": "Equivalente anual basado en una ADR de 350 euros para un perfil junior.",
+        "price": "79\u00a0450\u00a0€",
+        "period": " / an",
+        "detailTitle": "Détail",
+        "detail": {
+          "gross": {
+            "title" : "Salairio Bruto (honorarios)\u00a0:",
+            "value": "79\u00a0450\u00a0€"
+          },
+          "contribution": {
+            "title" : "Contribución patronal\u00a0:",
+            "value": "x"
+          },
+          "reduction": {
+            "title" : "Reducción\u00a0:",
+            "value": "x"
+          },
+          "cost": {
+            "title" : "Costes educativos\u00a0:",
+            "value": "x"
+          },
+          "opco":{
+            "title" : "Reembolso del OPCO\u00a0:",
+            "value": "x"
+          },
+          "franceTravail": {
+            "title": "Reembolso de France\u00a0Travail\u00a0:",
+            "value": "x"
+          }
+        }, 
+        "cta": ""
+      },
+      "nb": "*Cifras no contractuales, calculadas a partir de la información disponible en línea, en particular en ironhack.com, talent.com, alternance-professionnelle.fr y urssaf.fr."
+    },
+    "about": {
+      "resume": {
+        "1": "Si ha llegado hasta aquí sin haberse decidido, al menos déjame presentarme en unas líneas. Me llamo Ronan y me han aceptado en el programa de desarrollo web de Ironhack",
+        "2": "Después de vivir en Colombia durante casi 2 años, estoy buscando completar mi transición profesional y conseguir mi primer trabajo como desarrollador React JS o MERN Fullstack Frontend con un contrato de formación profesional. Así que tengo dos objetivos a corto plazo: encontrar una empresa que esté dispuesta a trabajar conmigo para poder adquirir una experiencia enriquecedora en términos educativos, profesionales y humanos; y conseguir una certificación de desarrollador que sea reconocida en el mercado francés, ya que por el momento la que tengo solo es válida en el mercado colombiano.",
+        "3": "Eso debe dejarle con una serie de preguntas. Espero su llamada o su correo electrónico para que podamos hablar de nuestra futura colaboración."
+      }
+    },
+    "form": {
+      "company": "Mi empresa",
+      "message": "Hola muy buenas tardes, me gustaría contratarle y ahorrar 21 000 euros",
+      "cta": "Enviar"
+    },
+    "footer": {
+      "title": "Ronan CANNY",
+      "phone": {
+        "title": "Telefono",
+        "content": "+33 6 83 80 57 23"
+      },
+      "email": {
+        "title": "Correo",
+        "content": "whatcannydev@gmail.com"
+      },
+      "localization":{
+        "title": "Localización",
+        "content": "Île-de-France, France"
+      },
+      "socials":{
+        "github": "Github",
+        "linkedin": "LinkedIn",
+        "website": "Sitio web"
+      },
+      "ironhack": {
+        "title": "Acerca de Ironhack",
+        "link": "https://lp.ironhack.com/fr/apprenticeship"
+      },
+      "opca": "Acerca de los OPCO",
+      "modalTitle": "Lista de OPCO (Operadores de Competencias)",
+      "modal": {
+        "1":{
+          "title": "AFDAS",
+          "subtitle": "OPCO de la Cultura, medios de comunicación, ocio y deporte",
+          "link": "https://www.afdas.com/"
+        },
+        "2":{
+          "title": "ATLAS",
+          "subtitle": "OPCO de los servicios financieros y de asesoramiento",
+          "link": "https://www.opco-atlas.fr/"
+        },
+        "3":{
+          "title": "Uniformation",
+          "subtitle": "OPCO de cohesión social",
+          "link": "https://www.uniformation.fr/"
+        },
+        "4":{
+          "title": "AKTO",
+          "subtitle": "OPCO de empresas con gran intensidad de mano de obra",
+          "link": "https://www.akto.fr/"
+        },
+        "5":{
+          "title": "OCAPIAT",
+          "subtitle": "OPCO de la agricultura, la pesca y la industria agroalimentaria",
+          "link": "https://www.ocapiat.fr/"
+        },
+        "6":{
+          "title": "2I",
+          "subtitle": "OPCO interindustrial",
+          "link": "https://www.opco2i.fr/"
+        },
+        "7":{
+          "title": "Constructys",
+          "subtitle": "OPCO de la construcción",
+          "link": "https://www.constructys.fr/"
+        },
+        "8":{
+          "title": "OPCO Mobilités",
+          "subtitle": "OPCO de los oficios de la movilidad",
+          "link": "https://www.opcomobilites.fr/"
+        },
+        "9":{
+          "title": "OPCO EP",
+          "subtitle": "OPCO de las empresas locales",
+          "link": "https://www.opcoep.fr/"
+        },
+        "10":{
+          "title": "OPCO Santé",
+          "subtitle": "OPCO de las profesiones sanitarias",
+          "link": "https://www.opco-sante.fr/"
+        },
+        "11":{
+          "title": "Opcommerce",
+          "subtitle": "OPCO de las empresas comerciales",
+          "link": "https://www.lopcommerce.com/"
+        }
+      },
+      "signatureintro": "Coded by ",
+      "signaturelink": "WhatCannyDev",
+      "signaturetooltip": "yo"
     }
   }
+}

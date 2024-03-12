@@ -1,88 +1,58 @@
 import React from "react";
 import {
+  Button,
   Card,
   CardHeader,
   CardBody,
   CardFooter,
   Divider,
-  Link,
-  Image,
-  Button,
+  Table, TableHeader, TableColumn, TableBody, TableRow, TableCell
 } from "@nextui-org/react";
+import {useTranslations} from 'next-intl';
+  
 
 export function Price() {
+  const t = useTranslations('home');
+
+  const prices = [1, 2, 3];
   return (
-    <div className="container flex flex-col items-center pt-12">
-      <Card className="w-5/6 mb-8">
-        <CardHeader className="flex flex-col h-28 justify-between">
-            <p className="text-lg font-semibold text-center">Contrat de professionnalisation</p>
-            <p className="w-full"><span className="text-xl tracking-wide font-bold">23 450 €</span> / an</p>
-        </CardHeader>
-        <Divider />
-        <CardBody className="h-60">
-            <p className="text-lg">Détail</p>
-            <ul className="">
-                <li className="flex justify-between items-end"><span>Salaire Brut :</span><span>21&nbsp;200&nbsp;€</span></li>
-                <li className="flex justify-between items-end"><span>Cotisations patronales :</span><span>8&nbsp;900&nbsp;€</span></li>
-                <li className="flex justify-between items-end mb-2"><span>Réduction :</span><span>-&nbsp;7&nbsp;500&nbsp;€</span></li>
-                <li className="flex justify-between items-end"><span>Frais pédagogiques :</span><span>9 000 €</span></li>
-                <li className="flex justify-between items-end"><span>Prise en charge OPCO :</span><span>- 6 150 €</span></li>
-                <li className="flex justify-between items-end"><span>Prise en charge France&nbsp;Travail :</span><span>-&nbsp;2&nbsp;000&nbsp;€</span></li>
-            </ul>
-        </CardBody>
-        <Divider />
-        <CardFooter className="h-20">
-            <Button color="secondary" variant="shadow" size="lg" className="w-full text-md">
-                Je signe
-            </Button>
-        </CardFooter>
-      </Card>
-      <Card className="w-5/6 mb-8">
-        <CardHeader className="flex flex-col justify-between h-28">
-            <p className="text-lg font-semibold text-center">CDD / CDI (junior)</p>
-            <p className="w-full"><span className="text-xl tracking-wide font-bold">44 570 €</span> / an</p>
-        </CardHeader>
-        <Divider />
-        <CardBody className="h-60">
-            <p className="text-lg">Détail</p>
-            <ul className="">
-                <li className="flex justify-between items-end"><span>Salaire Brut :</span><span>31&nbsp;390&nbsp;€</span></li>
-                <li className="flex justify-between items-end"><span>Cotisations patronales :</span><span>13&nbsp;180&nbsp;€</span></li>
-                <li className="flex justify-between items-end mb-2"><span>Réduction :</span><span>x</span></li>
-                <li className="flex justify-between items-end"><span>Frais pédagogiques :</span><span>x</span></li>
-                <li className="flex justify-between items-end"><span>Prise en charge OPCO :</span><span>x</span></li>
-                <li className="flex justify-between items-end"><span>Prise en charge France&nbsp;Travail :</span><span>x</span></li>
-            </ul>
-        </CardBody>
-        <Divider />
-        <CardFooter className="h-20">
-            
-        </CardFooter>
-      </Card>
-      <Card className="w-5/6 mb-8">
-        <CardHeader className="flex flex-col justify-between h-28">
-            <p className="text-lg font-semibold">Freelance</p>
-            <p className="text-xs px-10">Equivalent annuel sur la base d&apos;un TJM à 350 € pour un profil junior.</p>
-            <p className="w-full"><span className="text-xl tracking-wide font-bold">79 450 €</span> / an</p>
-        </CardHeader>
-        <Divider />
-        <CardBody className="h-60">
-            <p className="text-lg">Détail</p>
-            <ul className="">
-                <li className="flex justify-between items-end"><span>Honoraires TTC :</span><span>79&nbsp;450&nbsp;€</span></li>
-                <li className="flex justify-between items-end"><span>Cotisations patronales :</span><span>x</span></li>
-                <li className="flex justify-between items-end mb-2"><span>Réduction :</span><span>x</span></li>
-                <li className="flex justify-between items-end"><span>Frais pédagogiques :</span><span>x</span></li>
-                <li className="flex justify-between items-end"><span>Prise en charge OPCO :</span><span>x</span></li>
-                <li className="flex justify-between items-end"><span>Prise en charge France&nbsp;Travail :</span><span>x</span></li>
-            </ul>
-        </CardBody>
-        <Divider />
-        <CardFooter className="h-20">
-            
-        </CardFooter>
-      </Card>
-      <p className="px-10 text-xs">Chiffres non-contractuels, calculés sur la base des informations disponibles en ligne et notamment sur ironhack.com, talent.com, alternance-professionnelle.fr et urssaf.fr.</p>
+    <div className="container flex flex-col items-center px-10 py-20">
+      <div className="w-full flex flex-col items-center max-w-lg md:flex-row md:flex-wrap md:max-w-5xl md:justify-around">
+      {prices.map((foo)=>{
+        return(
+          <Card className="w-full mb-8 md:w-72" key={`card_${foo}`}>
+            <CardHeader className="flex flex-col justify-between min-h-28 sm:min-h-24 md:min-h-28">
+                <p className="w-full text-lg font-semibold">{t(`price.${foo}.title`)}</p>
+                <p className="w-full text-xs">{t(`price.${foo}.subtitle`)}</p>
+                <p className="w-full"><span className="text-xl tracking-wide font-bold">{t(`price.${foo}.price`)}</span>{t(`price.${foo}.period`)}</p>
+            </CardHeader>
+            <Divider />
+            <CardBody className="min-h-80 sm:min-h-56 md:min-h-80">
+                <p className="text-lg">{t(`price.${foo}.detailTitle`)}</p>
+                <ul>
+                    <li className="flex justify-between items-end"><span className="w-2/3">{t(`price.${foo}.detail.gross.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.gross.value`)}</span></li>
+                    <li className="flex justify-between items-end"><span className="w-2/3">{t(`price.${foo}.detail.contribution.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.contribution.value`)}</span></li>
+                    <li className="flex justify-between items-end mb-4"><span className="w-2/3">{t(`price.${foo}.detail.reduction.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.reduction.value`)}</span></li>
+                    <li className="flex justify-between items-end"><span className="w-2/3">{t(`price.${foo}.detail.cost.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.cost.value`)}</span></li>
+                    <li className="flex justify-between items-end"><span className="w-2/3">{t(`price.${foo}.detail.opco.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.opco.value`)}</span></li>
+                    <li className="flex justify-between items-end"><span className="w-2/3">{t(`price.${foo}.detail.franceTravail.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.franceTravail.value`)}</span></li>
+                </ul>
+            </CardBody>
+            <Divider />
+            <CardFooter className="min-h-20 sm:min-h-20">
+              {
+                t(`price.${foo}.cta`) !== "" ? 
+                <Button variant="shadow" size="lg" className="w-full text-md bg-sky-400">
+                    {t(`price.${foo}.cta`)}
+                </Button> : 
+                <></>
+              }
+            </CardFooter>
+          </Card>
+        )
+      })}
+    </div>
+    <p className="text-xs mb-8">{t(`price.nb`)}</p>
     </div>
   );
 }
