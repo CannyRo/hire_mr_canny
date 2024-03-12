@@ -1,5 +1,5 @@
 'use client';
-import React from "react";
+import React, { useRef } from "react";
 import {Switch} from "@nextui-org/react";
 import {MoonIcon} from "./_moonIcon";
 import {SunIcon} from "./_sunIcon";
@@ -10,11 +10,19 @@ export function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
-  let initialTheme = window.localStorage.getItem("theme") || "dark";
+  const themeRef = useRef(null);
+  // typeof window === "undefined" ? window.localStorage.getItem("theme") : "dark";
   useEffect(() => {
+    if(themeRef.current === null){
+      if(typeof window === "undefined"){
+        themeRef.current = window.localStorage.getItem("theme");
+      } else {
+        themeRef.current = "dark";
+      }
+    }
     setMounted(true);
     if(theme !== 'dark' && theme  !== 'light'){
-      setTheme(initialTheme)
+      setTheme(themeRef.current)
     }
   }, []);
 
