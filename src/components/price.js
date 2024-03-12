@@ -6,6 +6,7 @@ import {
   CardBody,
   CardFooter,
   Divider,
+  Table, TableHeader, TableColumn, TableBody, TableRow, TableCell
 } from "@nextui-org/react";
 import {useTranslations} from 'next-intl';
   
@@ -15,29 +16,30 @@ export function Price() {
 
   const prices = [1, 2, 3];
   return (
-    <div className="container flex flex-col items-center pt-12">
+    <div className="container flex flex-col items-center px-10 py-20">
+      <div className="w-full flex flex-col items-center max-w-lg md:flex-row md:flex-wrap md:max-w-5xl md:justify-around">
       {prices.map((foo)=>{
         return(
-          <Card className="w-5/6 mb-8" key={`card_${foo}`}>
-            <CardHeader className="flex flex-col h-28 justify-between">
+          <Card className="w-full mb-8 md:w-72" key={`card_${foo}`}>
+            <CardHeader className="flex flex-col justify-between min-h-28 sm:min-h-24 md:min-h-28">
                 <p className="w-full text-lg font-semibold">{t(`price.${foo}.title`)}</p>
                 <p className="w-full text-xs">{t(`price.${foo}.subtitle`)}</p>
                 <p className="w-full"><span className="text-xl tracking-wide font-bold">{t(`price.${foo}.price`)}</span>{t(`price.${foo}.period`)}</p>
             </CardHeader>
             <Divider />
-            <CardBody className="h-60">
+            <CardBody className="min-h-80 sm:min-h-56 md:min-h-80">
                 <p className="text-lg">{t(`price.${foo}.detailTitle`)}</p>
-                <ul className="">
-                    <li className="flex justify-between items-end"><span>{t(`price.${foo}.detail.gross.title`)} :</span><span>{t(`price.${foo}.detail.gross.value`)}</span></li>
-                    <li className="flex justify-between items-end"><span>{t(`price.${foo}.detail.contribution.title`)} :</span><span>{t(`price.${foo}.detail.contribution.value`)}</span></li>
-                    <li className="flex justify-between items-end mb-2"><span>{t(`price.${foo}.detail.reduction.title`)} :</span><span>{t(`price.${foo}.detail.reduction.value`)}</span></li>
-                    <li className="flex justify-between items-end"><span>{t(`price.${foo}.detail.cost.title`)} :</span><span>{t(`price.${foo}.detail.cost.value`)}</span></li>
-                    <li className="flex justify-between items-end"><span>{t(`price.${foo}.detail.opco.title`)} :</span><span>{t(`price.${foo}.detail.opco.value`)}</span></li>
-                    <li className="flex justify-between items-end"><span>{t(`price.${foo}.detail.franceTravail.title`)} :</span><span>{t(`price.${foo}.detail.franceTravail.value`)}</span></li>
+                <ul>
+                    <li className="flex justify-between items-end"><span className="w-2/3">{t(`price.${foo}.detail.gross.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.gross.value`)}</span></li>
+                    <li className="flex justify-between items-end"><span className="w-2/3">{t(`price.${foo}.detail.contribution.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.contribution.value`)}</span></li>
+                    <li className="flex justify-between items-end mb-4"><span className="w-2/3">{t(`price.${foo}.detail.reduction.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.reduction.value`)}</span></li>
+                    <li className="flex justify-between items-end"><span className="w-2/3">{t(`price.${foo}.detail.cost.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.cost.value`)}</span></li>
+                    <li className="flex justify-between items-end"><span className="w-2/3">{t(`price.${foo}.detail.opco.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.opco.value`)}</span></li>
+                    <li className="flex justify-between items-end"><span className="w-2/3">{t(`price.${foo}.detail.franceTravail.title`)} </span><span className="ms-1">{t(`price.${foo}.detail.franceTravail.value`)}</span></li>
                 </ul>
             </CardBody>
             <Divider />
-            <CardFooter className="h-20">
+            <CardFooter className="min-h-20 sm:min-h-20">
               {
                 t(`price.${foo}.cta`) !== "" ? 
                 <Button variant="shadow" size="lg" className="w-full text-md bg-sky-400">
@@ -49,7 +51,8 @@ export function Price() {
           </Card>
         )
       })}
-      <p className="px-10 text-xs mb-8">{t(`price.nb`)}</p>
+    </div>
+    <p className="text-xs mb-8">{t(`price.nb`)}</p>
     </div>
   );
 }

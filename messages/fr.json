@@ -12,7 +12,7 @@
       },
       "2":{
         "title": "Economisez du temps",
-        "content": "L'alternance permet d'évaluer des compétences et l'adaptabilité à la culture et aux procésus d'entreprise d'un candidat sur une période prolongée avant de s'engager sur un CDI. Le risque d'un mauvais recrutement est donc réduit, ce qui fait gagner du temps à votre entreprise. De plus, un candidat en reconversion professionnelle peut s'appuyer sur des compétences transverses déjà acquises lors d'expériences passées."
+        "content": "L'alternance permet d'évaluer des compétences et l'adaptabilité à la culture et aux processus d'entreprise d'un candidat sur une période prolongée avant de s'engager sur un CDI. Le risque d'un mauvais recrutement est donc réduit, ce qui fait gagner du temps à votre entreprise. De plus, un candidat en reconversion professionnelle peut s'appuyer sur des compétences transverses déjà acquises lors d'expériences passées."
       },
       "3":{
         "title": "Economisez de l'énergie",
@@ -28,28 +28,28 @@
         "detailTitle": "Détail",
         "detail": {
           "gross": {
-            "title" : "Salaire brut",
+            "title" : "Salaire brut\u00a0:",
             "value": "21\u00a0200\u00a0€"
           },
           "contribution": {
-            "title" : "Cotisations patronales",
+            "title" : "Cotisations patronales\u00a0:",
             "value": "8\u00a0900\u00a0€"
           },
           "reduction": {
-            "title" : "Réduction",
-            "value": "- 7\u00a0500\u00a0€"
+            "title" : "Réduction\u00a0:",
+            "value": "-\u00a07\u00a0500\u00a0€"
           },
           "cost": {
-            "title" : "Frais pédagogiques",
+            "title" : "Frais pédagogiques\u00a0:",
             "value": "9\u00a0000\u00a0€"
           },
           "opco":{
-            "title" : "Prise en charge OPCO",
-            "value": "- 6\u00a0150\u00a0€"
+            "title" : "Prise en charge OPCO\u00a0:",
+            "value": "-\u00a06\u00a0150\u00a0€"
           },
           "franceTravail": {
-            "title": "Prise en charge France\u00a0Travail",
-            "value": "- 2\u00a0000\u00a0€"
+            "title": "Prise en charge France\u00a0Travail\u00a0:",
+            "value": "-\u00a02\u00a0000\u00a0€"
           }
         },
         "cta": "Je signe!"
@@ -62,27 +62,27 @@
         "detailTitle": "Détail",
         "detail": {
           "gross": {
-            "title" : "Salaire brut",
+            "title" : "Salaire brut\u00a0:",
             "value": "31\u00a0390\u00a0€"
           },
           "contribution": {
-            "title" : "Cotisations patronales",
+            "title" : "Cotisations patronales\u00a0:",
             "value": "13\u00a0180\u00a0€"
           },
           "reduction": {
-            "title" : "Réduction",
+            "title" : "Réduction\u00a0:",
             "value": "x"
           },
           "cost": {
-            "title" : "Frais pédagogiques",
+            "title" : "Frais pédagogiques\u00a0:",
             "value": "x"
           },
           "opco":{
-            "title" : "Prise en charge OPCO",
+            "title" : "Prise en charge OPCO\u00a0:",
             "value": "x"
           },
           "franceTravail": {
-            "title": "Prise en charge France Travail",
+            "title": "Prise en charge France\u00a0Travail\u00a0:",
             "value": "x"
           }
         },
@@ -96,27 +96,27 @@
         "detailTitle": "Détail",
         "detail": {
           "gross": {
-            "title" : "Salaire Brut (honoraires)",
+            "title" : "Salaire Brut (honoraires)\u00a0:",
             "value": "79\u00a0450\u00a0€"
           },
           "contribution": {
-            "title" : "Cotisations patronales",
+            "title" : "Cotisations patronales\u00a0:",
             "value": "x"
           },
           "reduction": {
-            "title" : "Réduction",
+            "title" : "Réduction\u00a0:",
             "value": "x"
           },
           "cost": {
-            "title" : "Frais pédagogiques",
+            "title" : "Frais pédagogiques\u00a0:",
             "value": "x"
           },
           "opco":{
-            "title" : "Prise en charge OPCO",
+            "title" : "Prise en charge OPCO\u00a0:",
             "value": "x"
           },
           "franceTravail": {
-            "title": "Prise en charge France Travail",
+            "title": "Prise en charge France\u00a0Travail\u00a0:",
             "value": "x"
           }
         }, 

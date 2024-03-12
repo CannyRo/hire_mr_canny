@@ -55,7 +55,6 @@ export function Form(props) {
             message: e.target.value
         })
     }
-
     function isValid(e){
         switch(e.target.name){
             case 'firstName' :
@@ -122,7 +121,6 @@ export function Form(props) {
                 })
         }
     }
-
     function sendMessage(){
         const serviceId = process.env.NEXT_PUBLIC_EMAILJS_ID;
         const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
@@ -176,28 +174,28 @@ export function Form(props) {
         }
     }
 
-
-
     return (
-        <div className="container flex flex-col px-10 py-8">
-            <Input name="firstName" type="text" label="John" className="mb-4" isRequired value={values.firstName} onChange={handleFirstName} onBlur={isValid} isInvalid={isInvalid.firstName}/>
-            <Input name="lastName" type="text" label="DOE" className="mb-4" isRequired value={values.lastName} onChange={handleLastName} onBlur={isValid} isInvalid={isInvalid.lastName}/>
-            <Input name="company" type="text" label={props.placeholderCompany} className="mb-4" value={values.company} onChange={handleCompany} onBlur={isValid}/>
-            <Input name="email" type="email" label="john.doe@email.com" className="mb-4" isRequired value={values.email} onChange={handleEmail} onBlur={isValid} isInvalid={isInvalid.email}/>
-            <Textarea
-                name="message"
-                variant="default"
-                placeholder={props.placeholderTextarea}
-                value={values.message}
-                onChange={handleMessage}
-                className="mb-4"
-                isRequired
-                onBlur={isValid}
-                isInvalid={isInvalid.message}
-            />
-            <Button variant="shadow" size="lg" className="w-full text-md bg-sky-400" onClick={sendMessage}>
-                {props.placeholderCta}
-            </Button>
+        <div className="container flex justify-center px-10 py-20 ">
+            <div className="flex flex-col items-center w-full max-w-lg">
+                <Input name="firstName" type="text" label="John" className="mb-4" isRequired value={values.firstName} onChange={handleFirstName} onBlur={isValid} isInvalid={isInvalid.firstName}/>
+                <Input name="lastName" type="text" label="DOE" className="mb-4" isRequired value={values.lastName} onChange={handleLastName} onBlur={isValid} isInvalid={isInvalid.lastName}/>
+                <Input name="company" type="text" label={props.placeholderCompany} className="mb-4" value={values.company} onChange={handleCompany} onBlur={isValid}/>
+                <Input name="email" type="email" label="john.doe@email.com" className="mb-4" isRequired value={values.email} onChange={handleEmail} onBlur={isValid} isInvalid={isInvalid.email}/>
+                <Textarea
+                    name="message"
+                    variant="default"
+                    placeholder={props.placeholderTextarea}
+                    value={values.message}
+                    onChange={handleMessage}
+                    className="mb-4"
+                    isRequired
+                    onBlur={isValid}
+                    isInvalid={isInvalid.message}
+                />
+                <Button variant="shadow" size="lg" className="w-full text-md bg-sky-400" onClick={sendMessage}>
+                    {props.placeholderCta}
+                </Button>
+            </div>
         </div>
     );
 }

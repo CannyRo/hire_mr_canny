@@ -7,18 +7,20 @@ export function About(){
     const t = useTranslations('home');
 
     return(
-        <div className="container flex flex-col items-center py-8">
-            <Image
-                src="/avatar.svg"
-                alt="avatar"
-                width={200}
-                isBlurred
-                className="mb-8"
-            />
-            <div className="flex flex-col px-10">
-                <p className="mb-8">{t('about.resume.1')}</p>
-                <p className="mb-8">{t('about.resume.2')}</p>
-                <p className="mb-8">{t('about.resume.3')}</p>
+        <div className="container flex justify-center px-10 py-20">
+            <div className="flex flex-col items-center max-w-lg">
+                <Image
+                    src="/avatar_img_wcd.png"
+                    alt="avatar"
+                    width={300}
+                    isBlurred
+                    className="mb-8"
+                />
+                <div className="flex flex-col">
+                    <p className="mb-8">{t('about.resume.1')}</p>
+                    <p className="mb-8">{t('about.resume.2')}</p>
+                    <p className="mb-8">{t('about.resume.3')}</p>
+                </div>
             </div>
         </div>
     )

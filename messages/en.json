@@ -40,7 +40,7 @@
           },
           "reduction": {
             "title" : "Deduction",
-            "value": "- €7,500"
+            "value": "-\u00a0€7,500"
           },
           "cost": {
             "title" : "Educational costs",
@@ -48,11 +48,11 @@
           },
           "opco":{
             "title" : "OPCO support",
-            "value": "- €6,150"
+            "value": "-\u00a0€6,150"
           },
           "franceTravail": {
             "title": "Support from France\u00a0Travail",
-            "value": "- €2,000"
+            "value": "-\u00a0€2,000"
           }
         },
         "cta": "I sign"

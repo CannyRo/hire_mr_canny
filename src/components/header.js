@@ -5,8 +5,8 @@ import { ThemeSwitcher } from "./themeSwitcher";
 
 export function Header(locale) {
   return (
-      <Navbar position="sticky">
-        <NavbarBrand>
+      <Navbar position="sticky" className="sm:px-none">
+        <NavbarBrand className="sm:px-0">
             <Image 
                 width={100}
                 alt="Logo"
