@@ -1,4 +1,5 @@
 import {useTranslations} from 'next-intl';
+import {unstable_setRequestLocale} from 'next-intl/server';
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Argument } from "@/components/argument";
@@ -10,6 +11,7 @@ import { Footer } from "@/components/footer";
 
 
 export default function Home({params: {locale}}) {
+  unstable_setRequestLocale(locale);
   const t = useTranslations('home');
   const languageValue = locale ;
   return (
