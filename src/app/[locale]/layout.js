@@ -20,7 +20,7 @@ export default async function RootLayout({
   children,
   params: {locale}
 }) {
-  unstable_setRequestLocale(locale);
+  unstable_setRequestLocale(locale); 
   return (
     <html lang={locale}>
       <body className={montserrat.className} props={locale}>
