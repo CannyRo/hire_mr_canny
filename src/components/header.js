@@ -10,7 +10,7 @@ export function Header(locale) {
             <Image 
                 width={100}
                 alt="Logo"
-                src="/logo_skull_rounded_light.svg"
+                src="/hire_mr_canny/logo_skull_rounded_light.svg"
             />
         </NavbarBrand>
         <NavbarContent justify="end">
