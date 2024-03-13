@@ -122,9 +122,9 @@ export function Form(props) {
         }
     }
     function sendMessage(){
-        const serviceId = process.env.NEXT_PUBLIC_EMAILJS_ID;
-        const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-        const publicKey = process.env.NEXT_PUBLIC_EMAILJS_KEY;
+        const serviceId = service_hpcx3tc;
+        const templateId = template_y3s86hx;
+        const publicKey = A_xbFY5pWwm0qIf0W;
         if(
             values.firstName !== "" && 
             values.firstName !== undefined && 
