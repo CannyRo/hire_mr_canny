@@ -122,9 +122,9 @@ export function Form(props) {
         }
     }
     function sendMessage(){
-        const serviceId = service_hpcx3tc;
-        const templateId = template_y3s86hx;
-        const publicKey = A_xbFY5pWwm0qIf0W;
+        const serviceId = "service_hpcx3tc";
+        const templateId = "template_y3s86hx";
+        const publicKey = "A_xbFY5pWwm0qIf0W";
         if(
             values.firstName !== "" && 
             values.firstName !== undefined && 
