@@ -6,7 +6,7 @@ import {
   CardBody,
   CardFooter,
   Divider,
-  Table, TableHeader, TableColumn, TableBody, TableRow, TableCell
+  Link
 } from "@nextui-org/react";
 import {useTranslations} from 'next-intl';
   
@@ -42,7 +42,9 @@ export function Price() {
             <CardFooter className="min-h-20 sm:min-h-20">
               {
                 t(`price.${foo}.cta`) !== "" ? 
-                <Button variant="shadow" size="lg" className="w-full text-md bg-sky-400">
+                <Button 
+                    as={Link} href="#i-say-yes"
+                    variant="shadow" size="lg" className="w-full text-md bg-sky-400">
                     {t(`price.${foo}.cta`)}
                 </Button> : 
                 <></>
