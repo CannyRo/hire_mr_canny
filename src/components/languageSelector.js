@@ -1,7 +1,6 @@
 'use client';
-
 import React from "react";
-import {Select, SelectItem} from "@nextui-org/react";
+import { Select, SelectItem} from "@nextui-org/react";
 import { useRouter, usePathname } from '@/navigation';
 import { EarthIcon } from "./_earthIcon";
 
@@ -12,8 +11,6 @@ export function LanguageSelector( locale ) {
         router.push(pathname, { locale: e.target.value });
     };
     const language = locale.locale.props.trim()
-    // console.log("SWITHCER : ",locale);
-    // console.log("SWITHCER language : ",language);
     return (
         <div className="flex flex-wrap w-32">
             <Select
