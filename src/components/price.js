@@ -9,6 +9,7 @@ import {
   Link
 } from "@nextui-org/react";
 import {useTranslations} from 'next-intl';
+import { CtaButton } from './ctaButton';
   
 
 export function Price() {
@@ -42,11 +43,7 @@ export function Price() {
             <CardFooter className="min-h-20 sm:min-h-20">
               {
                 t(`price.${foo}.cta`) !== "" ? 
-                <Button 
-                    as={Link} href="#i-say-yes"
-                    variant="shadow" size="lg" className="w-full text-md bg-sky-400">
-                    {t(`price.${foo}.cta`)}
-                </Button> : 
+                <CtaButton tagline={t(`price.${foo}.cta`)}/> : 
                 <></>
               }
             </CardFooter>
