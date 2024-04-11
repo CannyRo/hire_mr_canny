@@ -16,6 +16,13 @@ export function About(){
                     isBlurred
                     className="mb-8"
                 />
+                {/* <Image
+                    src="/avatar_img_wcd.png"
+                    alt="avatar"
+                    width={300}
+                    isBlurred
+                    className="mb-8"
+                /> */}
                 <div className="flex flex-col">
                     <p className="mb-8">{t('about.resume.1')}</p>
                     <p className="mb-8">{t('about.resume.2')}</p>

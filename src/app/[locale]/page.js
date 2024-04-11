@@ -7,10 +7,13 @@ import { Price } from "@/components/price";
 import { About } from "@/components/about";
 import { Form } from "@/components/form";
 import { Footer } from "@/components/footer";
+import { Chronology } from '@/components/chronology';
+import { TableContainer } from '@/components/tableContainer';
 
 
 
-export default function Home({params: {locale}}) {
+export default function Home({props, params: {locale}}) {
+  // console.log("props =>", props)
   unstable_setRequestLocale(locale);
   const t = useTranslations('home');
   const languageValue = locale ;
@@ -19,8 +22,10 @@ export default function Home({params: {locale}}) {
       <Header props={languageValue}/>
       <Hero/>
       <Argument/>
+      <Chronology props={languageValue}/>
       <Price/>
       <About/>
+      <TableContainer/>
       <Form 
         placeholderCompany={t('form.company')} 
         placeholderTextarea={t('form.message')} 

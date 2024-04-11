@@ -1,17 +1,14 @@
 {
   "home": {
     "hero": {
-      "tagline01": "Hire a new talent and save ",
-      "tagline02": "and save ",
-      "keyword01": "€12,000*.",
-      "tagline": "Hire a new talent and save €21,000*.",
+      "tagline": "Hire a new talent for 60% of the market price*.",
       "subtitle": "Because work-study is a win-win choice, don't hesitate to save your money, time and energy.",
-      "cta": "I recruit and save €21,000"
+      "cta": "I recruit and save €18,000"
     },
     "arguments":{
       "1":{
         "title": "Save money",
-        "content": "Between the cost covered by your OPCO (Opérateur de Compétences), the contribution from France Travail and the applicable tax exemptions on your employer's contributions, save €21,000* for a 12-month period compared with a fixed-term or permanent contract with a junior developer profile."
+        "content": "Between the cost covered by your OPCO (Opérateur de Compétences), the contribution from France Travail and the applicable tax exemptions on your employer's contributions, save €18,000* for a 12-month period compared with a fixed-term or permanent contract with a junior developer profile."
       },
       "2":{
         "title": "Save time",
@@ -19,14 +16,14 @@
       },
       "3":{
         "title": "Save energy",
-        "content": "The reduction in recruitment risk mentioned above also means energy savings for your HR functions. In fact, you'll need to look for and hire fewer new employees, since the professionalization contract gives you visibility over the next 12 months. And Ironhack's added bonus: a special format with all courses running continuously over 9 weeks, leaving the student 100% trained and 100% available on the job from the moment he or she takes up the position until the end of the contract. So you don't have to worry about his or her availability, especially for your sprints."
+        "content": "The reduction in recruitment risk mentioned above also means energy savings for your HR functions. In fact, you'll need to look for and hire fewer new employees, since the professionalization contract gives you visibility over the next 16 months (16-month professionalization contract in partnership with Ironhack and CFA Afia). And Ironhack's added bonus: a special format with all courses running continuously over 9 weeks, leaving the student 100% trained and 100% available on the job from the moment he or she takes up the position until the end of the contract (only 1 Friday/month distance learning). So you don't have to worry about his or her availability, especially for your sprints."
       }
     },
     "price": {
       "1": {
         "title": "Professionalization contract",
         "subtitle": "",
-        "price": "€23,450",
+        "price": "€26,950",
         "period": " / year",
         "detailTitle": "Detail",
         "detail": {
@@ -44,7 +41,7 @@
           },
           "cost": {
             "title" : "Educational costs",
-            "value": "€9,000"
+            "value": "€12,500"
           },
           "opco":{
             "title" : "OPCO support",
@@ -134,9 +131,54 @@
         "3": "That must leave you with a number of questions. I look forward to your call or email, so that we can talk about our future collaboration."
       }
     },
+    "session":{
+      "col":{
+        "1": "Prework",
+        "2": "Bootcamp",
+        "3": "Practice"
+      },
+      "row":{
+        "1": {
+          "prework": "April 24, 2024 → May 10, 2024",
+          "bootcamp": "May 13, 2024 → July 12, 2024",
+          "practice": "From July 15, 2024"
+        },
+        "2": {
+          "prework": "May 17, 2024 → May 31, 2024",
+          "bootcamp": "June 3, 2024 → August 2, 2024",
+          "practice": "From August 5, 2024"
+        },
+        "3": {
+          "prework": "June 10, 2024 → June 21, 2024",
+          "bootcamp": "June 24, 2024 → August 23, 2024",
+          "practice": "From August 26, 2024"
+        },
+        "4": {
+          "prework": "July 22, 2024 → August 2, 2024",
+          "bootcamp": "August 5, 2024 → October 4, 2024",
+          "practice": "From October 7, 2024"
+        },
+        "5": {
+          "prework": "August 9, 2024 → August 23, 2024",
+          "bootcamp": "August 26, 2024 → October 25, 2024",
+          "practice": "From October 28, 2024"
+        },
+        "6": {
+          "prework": "September 16, 2024 → September 27, 2024",
+          "bootcamp": "September 30, 2024 → November 29, 2024",
+          "practice": "From December 2, 2024"
+        },
+        "7": {
+          "prework": "September 30, 2024 → October 11, 2024",
+          "bootcamp": "October 14, 2024 → December 13, 2024",
+          "practice": "From December 16, 2024"
+        }
+      },
+      "commentary": "Available as soon as possible; response date desired before the start of the prework of the session you're interested in."
+    },
     "form": {
       "company": "My company",
-      "message": "Dear Ronan, I'll be pleased to hire you and save €21,000...",
+      "message": "Dear Ronan, I'll be pleased to hire you and save €18,000...",
       "cta": "Send"
     },
     "footer": {
@@ -161,6 +203,10 @@
       "ironhack": {
         "title": "About Ironhack",
         "link": "https://www.ironhack.com/fr-en/web-development/paris"
+      },
+      "cfa": {
+        "title": "About CFA Afia",
+        "link": "https://www.cfa-afia.com/"
       },
       "opca": "About OPCA",
       "modalTitle": "List of OPCO (Opérateurs de compétences)",
