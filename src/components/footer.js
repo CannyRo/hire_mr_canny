@@ -80,9 +80,13 @@ export function Footer(){
                         </div>
                     </div>
                     <div className="justify-between sm:flex md:grow md:pt-4">
-                        <div className="mt-12 flex flex-col md:grow md:items-center md:mt-0">
-                            <Link isExternal href={t('footer.ironhack.link')} showAnchorIcon className="font-semibold">{t('footer.ironhack.title')}</Link>
-                            <OpcaModal detail={t('footer.opca')} modalTitle={t('footer.modalTitle')} modalContent={contentArray}/>
+                        <div className="mt-12 flex flex-col md:grow md:items-center md:mt-0 ">
+                            <div className="flex flex-col">
+                                <Link isExternal href={t('footer.ironhack.link')} showAnchorIcon className="font-semibold">{t('footer.ironhack.title')}</Link>
+                                <Link isExternal href={t('footer.cfa.link')} showAnchorIcon className="font-semibold">{t('footer.cfa.title')}</Link>
+                                <OpcaModal detail={t('footer.opca')} modalTitle={t('footer.modalTitle')} modalContent={contentArray}/>
+                            </div>
+                            
                         </div>
                         <div className="mt-12 flex justify-center w-full sm:w-auto md:mt-0">
                             <Link isExternal href="https://github.com/CannyRo" className="mx-4">
