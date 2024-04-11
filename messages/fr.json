@@ -1,14 +1,14 @@
 {
   "home": {
     "hero": {
-      "tagline": "Recrutez un nouveau talent et économisez 21\u00a0000\u00a0€*.",
+      "tagline": "Recrutez un nouveau talent pour 60% du prix du marché*.",
       "subtitle": "Parce que l'alternance est un choix gagnant-gagnant, n'hésitez plus à économiser votre argent, votre temps et votre énergie.",
-      "cta": "Je recrute et j'économise 21\u00a0000\u00a0€"
+      "cta": "Je recrute et j'économise 18\u00a0000\u00a0€"
     },
     "arguments":{
       "1":{
         "title": "Economisez de l'argent",
-        "content": "Entre la prise en charge de votre OPCO (Opérateur de Compétences), la participation de France Travail et les éxonérations fiscales applicables sur vos charges patronales ; économisez 21\u00a0000\u00a0€* pour une période de 12 mois par rapport à un contrat en CDD ou CDI avec un profil de développeur junior."
+        "content": "Entre la prise en charge de votre OPCO (Opérateur de Compétences), la participation de France Travail et les éxonérations fiscales applicables sur vos charges patronales ; économisez près de 18\u00a0000\u00a0€* pour une période de 12 mois par rapport à un contrat en CDD ou CDI avec un profil de développeur junior."
       },
       "2":{
         "title": "Economisez du temps",
@@ -16,14 +16,14 @@
       },
       "3":{
         "title": "Economisez de l'énergie",
-        "content": "La baisse du risque de recrutement évoquée auparavant entraîne également une économie d'énergie de vos fonctions RH. En effet, vous avez moins besoins de rechercher et d'intréguer de nouveaux collaborateurs puisque le contrat de professionnalisation vous offre une visibilité sur les 12 prochains moins. Et le plus de Ironhack ; un format particulier avec l'ensemble des cours en continu sur 9 semaines pour laisser l'alternant en entreprise 100% formé et 100% disponible en continu en entreprise de sa prise de poste jusqu'à la fin du contrat. Vous n'avez donc plus à vous soucier de sa disponibilité notamment pour vos sprints."
+        "content": "La baisse du risque de recrutement évoquée auparavant entraîne également une économie d'énergie de vos fonctions RH. En effet, vous avez moins besoins de rechercher et d'intréguer de nouveaux collaborateurs puisque le contrat de professionnalisation vous offre une visibilité sur les 16 prochains moins (contrat de professionnalisation de 16 moins en partenariat avec Ironhack et le CFA Afia). Et le plus de Ironhack ; un format particulier avec l'ensemble des cours en continu sur 9 semaines pour laisser l'alternant en entreprise 100% formé et 100% disponible en continu en entreprise de sa prise de poste jusqu'à la fin du contrat (seulement 1 vendredi/mois en cours à distance). Vous n'avez donc plus à vous soucier de sa disponibilité notamment pour vos sprints."
       }
     },
     "price": {
       "1": {
         "title": "Contrat de professionnalisation",
         "subtitle": "",
-        "price": "23\u00a0450\u00a0€",
+        "price": "26\u00a0950\u00a0€",
         "period": " / an",
         "detailTitle": "Détail",
         "detail": {
@@ -41,7 +41,7 @@
           },
           "cost": {
             "title" : "Frais pédagogiques\u00a0:",
-            "value": "9\u00a0000\u00a0€"
+            "value": "12\u00a0500\u00a0€"
           },
           "opco":{
             "title" : "Prise en charge OPCO\u00a0:",
@@ -131,9 +131,54 @@
         "3": "Voilà qui doit vous laissez avec un certain nombre d'interrogations. J'attends votre appel ou votre email avec impatience afin de pouvoir échanger à propos de notre future collaboration."
       }
     },
+    "session":{
+      "col":{
+        "1": "Prework",
+        "2": "Formation",
+        "3": "Entreprise"
+      },
+      "row":{
+        "1": {
+          "prework": "24 avril 2024 → 10 mai 2024",
+          "bootcamp": "13 mai 2024 → 12 juillet 2024",
+          "practice": "À partir du 15 juillet 2024"
+        },
+        "2": {
+          "prework": "17 mai 2024 → 31 mai 2024",
+          "bootcamp": "03 juin 2024 → 02 aout 2024",
+          "practice": "À partir du 05 aout 2024"
+        },
+        "3": {
+          "prework": "10 juin 2024 → 21 juin 2024",
+          "bootcamp": "24 juin 2024 → 23 aout 2024",
+          "practice": "À partir du 26 aout 2024"
+        },
+        "4": {
+          "prework": "22 juillet → 02 aout 2024",
+          "bootcamp": "05 aout 2024 → 04 octobre 2024",
+          "practice": "À partir du 07 octobre 2024"
+        },
+        "5": {
+          "prework": "09 aout 2024 → 23 aout 2024",
+          "bootcamp": "26 aout 2024 → 25 octobre 2024",
+          "practice": "À partir du 28 octobre 2024"
+        },
+        "6": {
+          "prework": "16 septembre 2024 → 27 septembre 2024",
+          "bootcamp": "30 septembre 2024 → 29 novembre 2024",
+          "practice": "À partir du 02 décembre 2024"
+        },
+        "7": {
+          "prework": "30 septembre 2024 → 11 octobre 2024",
+          "bootcamp": "14 octobre 2024 → 13 décembre 2024",
+          "practice": "À partir du 16 décembre 2024"
+        }
+      },
+      "commentary": "Disponible le plus tôt possible ; date de réponse souhaitée avant le démarrage du prework de la session qui vous intéresse."
+    },
     "form": {
       "company": "Mon entreprise",
-      "message": "Bonjour, je souhaite vous recruter et économiser 21 000 euros...",
+      "message": "Bonjour, je souhaite vous recruter et économiser 18\u00a0000\u00a0€...",
       "cta": "Envoyer"
     },
     "footer": {
@@ -158,6 +203,10 @@
       "ironhack": {
         "title": "Connaître Ironhack",
         "link": "https://lp.ironhack.com/fr/apprenticeship"
+      },
+      "cfa": {
+        "title": "Connaître le CFA Afia",
+        "link": "https://www.cfa-afia.com/"
       },
       "opca": "Connaître mon OPCA",
       "modalTitle": "Liste de OPCO (Opérateurs de compétences)",

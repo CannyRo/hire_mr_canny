@@ -8,6 +8,7 @@ import { About } from "@/components/about";
 import { Form } from "@/components/form";
 import { Footer } from "@/components/footer";
 import { Chronology } from '@/components/chronology';
+import { TableContainer } from '@/components/tableContainer';
 
 
 
@@ -24,6 +25,7 @@ export default function Home({props, params: {locale}}) {
       <Chronology props={languageValue}/>
       <Price/>
       <About/>
+      <TableContainer/>
       <Form 
         placeholderCompany={t('form.company')} 
         placeholderTextarea={t('form.message')} 
