@@ -9,20 +9,20 @@ export function About(){
     return(
         <div className="container flex justify-center px-10 py-20">
             <div className="flex flex-col items-center max-w-lg">
-                {/* <Image
+                <Image
                     src="/hire_mr_canny/avatar_img_wcd.png"
                     alt="avatar"
                     width={300}
                     isBlurred
                     className="mb-8"
-                /> */}
-                <Image
+                />
+                {/* <Image
                     src="/avatar_img_wcd.png"
                     alt="avatar"
                     width={300}
                     isBlurred
                     className="mb-8"
-                />
+                /> */}
                 <div className="flex flex-col">
                     <p className="mb-8">{t('about.resume.1')}</p>
                     <p className="mb-8">{t('about.resume.2')}</p>

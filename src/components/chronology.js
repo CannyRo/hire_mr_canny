@@ -23,8 +23,8 @@ export function Chronology(locale){
       }
     },[])
 
-    // let base = '/hire_mr_canny/version';
-    let base = '/version';
+    let base = '/hire_mr_canny/version';
+    // let base = '/version';
     let end = '.svg';
     let language = locale.props !== undefined ? locale.props : 'en';
 
