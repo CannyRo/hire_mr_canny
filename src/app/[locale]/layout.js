@@ -7,7 +7,7 @@ import "../globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Why hire Mr Ronan CANNY ?",
+  title: "Why you should hire Mr Ronan CANNY ?",
   description: "Landing page to promote my-self and the work-study program with Ironhack France.",
 };
 
