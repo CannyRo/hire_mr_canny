@@ -1,3 +1,18 @@
+# Hire me!!!
+![Miniature of Wiki Chara](./public/hire_mr_canny.gif)
+
+Welcome to [my self-promotion page](https://cannyro.github.io/hire_mr_canny/en) with the aim of finding a company for a 16-month professionalization contract in partnership with [IRONHACK Paris](https://www.ironhack.com/fr-en/web-development/paris).
+
+# About
+
+Imagined, designed and coded by myself with : 
+
+**[React](https://react.dev/), [Next.js](https://nextjs.org/), [NextUI](https://nextui.org/), [Next-Intl (I18n)](https://next-intl-docs.vercel.app/), [EmailJs](https://www.emailjs.com/), [Tailwind CSS](https://tailwindcss.com/)**
+
+
+
+# Run the Project
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
