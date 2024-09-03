@@ -191,7 +191,7 @@ export function Form(props) {
                     onBlur={isValid}
                     isInvalid={isInvalid.message}
                 />
-                <Button variant="shadow" size="lg" className="w-full text-md bg-sky-400" onClick={sendMessage}>
+                <Button variant="shadow" size="lg" className="w-full text-md bg-sky-400" onClick={sendMessage} disabled>
                     {props.placeholderCta}
                 </Button>
             </div>
