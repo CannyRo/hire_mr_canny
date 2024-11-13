@@ -9,7 +9,7 @@ export function TableContainer(){
 
     let rows = [];
     let indiceRows = 0;
-    for(let i = 0; i<3 ; i++){
+    for(let i = 0; i<4 ; i++){
         indiceRows++;
         rows.push({
             key: `${indiceRows}`,
