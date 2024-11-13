@@ -144,15 +144,20 @@
           "practice": "À partir du 23 décembre 2024"
         },
         "2": {
-          "prework": "13 décembre 2024 → 26 décembre 2024",
-          "bootcamp": "27 décembre 2024 → 28 février 2025",
-          "practice": "À partir du 03 mars 2025"
+          "prework": "27 décembre 2024 → 10 janvier 2025",
+          "bootcamp": "13 janvier 2025 → 14 mars 2025",
+          "practice": "À partir du 17 mars 2025"
         },
         "3": {
-          "prework": "20 janvier 2025 → 31 janvier 2025",
-          "bootcamp": "03 février 2025 → 05 avril 2025",
-          "practice": "À partir du 07 avril 2025"
-        }
+          "prework": "03 février 2025 → 14 février 2025",
+          "bootcamp": "17 février 2025 → 18 avril 2025",
+          "practice": "À partir du 21 avril 2025"
+        },
+        "4": {
+          "prework": "17 mars 2025 → 28 mars 2025",
+          "bootcamp": "31 mars 2025 → 30 mai 2025",
+          "practice": "À partir du 02 juin 2025"
+        },
       },
       "commentary": "Disponible le plus tôt possible ; date de réponse souhaitée avant le démarrage du prework de la session qui vous intéresse."
     },
